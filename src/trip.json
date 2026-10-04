@@ -1,0 +1,1547 @@
+{
+  "meta": {
+    "title": "Our first New Year",
+    "dates": "Dec 27, 2026 → Jan 14, 2027",
+    "depart": "2026-12-27T23:10:00-08:00",
+    "pulled": "Oct 4, 2026",
+    "cap": 8000,
+    "hotelTax": 0.18,
+    "note": "Prices are Google Flights / Google Hotels / operator snapshots from Sep 28 – Oct 4, 2026, in USD. Flights are per person; hotels are per night for one room, before taxes (the budget adds 18%). Anything marked est. was not shown with a live price."
+  },
+  "airports": {
+    "SFO": {
+      "name": "San Francisco",
+      "lat": 37.6189,
+      "lon": -122.375
+    },
+    "TPE": {
+      "name": "Taipei",
+      "lat": 25.0797,
+      "lon": 121.2342,
+      "layover": true
+    },
+    "CNX": {
+      "name": "Chiang Mai",
+      "lat": 18.7668,
+      "lon": 98.9626
+    },
+    "HKT": {
+      "name": "Phuket",
+      "lat": 8.1132,
+      "lon": 98.3169
+    },
+    "BKK": {
+      "name": "Bangkok",
+      "lat": 13.69,
+      "lon": 100.7501
+    },
+    "BOM": {
+      "name": "Mumbai",
+      "lat": 19.0896,
+      "lon": 72.8656
+    },
+    "JGA": {
+      "name": "Jamnagar",
+      "lat": 22.4655,
+      "lon": 70.0126
+    },
+    "HKG": {
+      "name": "Hong Kong",
+      "lat": 22.308,
+      "lon": 113.9185,
+      "layover": true
+    }
+  },
+  "flights": [
+    {
+      "id": "f1",
+      "date": "Sun Dec 27",
+      "from": "SFO",
+      "to": "CNX",
+      "via": "TPE",
+      "who": "both",
+      "airline": "STARLUX",
+      "times": "11:10 PM → Tue 4:00 PM",
+      "stop": "1 stop · Taipei 7h 50m",
+      "price": 809,
+      "chapter": "cnx",
+      "note": "The cheapest, by $121 each. The Taipei stop is long, but Dec 29 is a rest day. EVA ($930) lands 10:35 AM after a 1h 30m stop."
+    },
+    {
+      "id": "f2",
+      "date": "Fri Jan 1",
+      "from": "CNX",
+      "to": "BKK",
+      "who": "both",
+      "airline": "Thai VietJet",
+      "times": "3:15 PM → 4:35 PM",
+      "stop": "Nonstop",
+      "price": 110,
+      "chapter": "bkk",
+      "bag": true,
+      "note": "Lets us sleep in after the lanterns. Add a checked bag at booking."
+    },
+    {
+      "id": "f3",
+      "date": "Sun Jan 3",
+      "from": "BKK",
+      "to": "HKT",
+      "who": "both",
+      "airline": "Thai VietJet",
+      "times": "6:45 PM → 8:25 PM",
+      "stop": "Nonstop",
+      "price": 100,
+      "chapter": "hkt",
+      "bag": true,
+      "note": "After Chatuchak. Bangkok Airways at 9:25 PM ($97, bag included) is the later option."
+    },
+    {
+      "id": "f4",
+      "date": "Wed Jan 6",
+      "from": "HKT",
+      "to": "BOM",
+      "who": "both",
+      "airline": "IndiGo",
+      "times": "9:00 AM → 12:10 PM",
+      "stop": "Nonstop",
+      "price": 204,
+      "chapter": "bom",
+      "note": "The only morning flight. Gives us Wednesday afternoon and evening in Mumbai. Akasa at 4:45 PM ($193) is the later option."
+    },
+    {
+      "id": "f5",
+      "date": "Thu Jan 7",
+      "from": "BOM",
+      "to": "JGA",
+      "who": "both",
+      "airline": "IndiGo",
+      "times": "5:45 PM → 7:00 PM",
+      "stop": "Nonstop",
+      "price": 65,
+      "chapter": "jga",
+      "note": "The only nonstop of the day, so we get most of Jan 7 in Mumbai."
+    },
+    {
+      "id": "f6",
+      "date": "Wed Jan 13",
+      "from": "JGA",
+      "to": "BOM",
+      "who": "both",
+      "airline": "IndiGo",
+      "times": "10:50 AM → 12:05 PM",
+      "stop": "Nonstop",
+      "price": 72,
+      "chapter": "home",
+      "note": "An afternoon at Juhu Beach before the night flight."
+    },
+    {
+      "id": "f7",
+      "date": "Thu Jan 14",
+      "from": "BOM",
+      "to": "SFO",
+      "via": "HKG",
+      "who": "both",
+      "airline": "Cathay Pacific",
+      "times": "2:00 AM → 9:45 AM",
+      "stop": "1 stop · Hong Kong 3h 35m",
+      "price": 749,
+      "chapter": "home",
+      "note": "Leaves late on Jan 13. Cheaper than coming home on Jan 12 ($833)."
+    }
+  ],
+  "chapters": [
+    {
+      "id": "cnx",
+      "city": "Chiang Mai",
+      "code": "CNX",
+      "tag": "Elephants, a mountain temple, 10,000 lanterns",
+      "dates": "Dec 29 – Jan 1",
+      "nights": 3,
+      "photo": "elephant",
+      "tone": "lantern",
+      "lede": "Three nights: an easy first evening, a morning with rescued elephants, local markets by the river, the mountain temple on New Year's Eve morning, and the lanterns at midnight.",
+      "stay": {
+        "name": "Mövenpick Suriwongse Chiang Mai",
+        "brand": "Accor",
+        "stars": "4★",
+        "price": 76,
+        "rating": 4.3,
+        "area": "Night Bazaar",
+        "why": "Walk to the Night Bazaar. 15 minutes to the lantern shuttle and the airport."
+      },
+      "alts": [
+        {
+          "name": "Mercure Chiang Mai",
+          "brand": "Accor",
+          "price": 51,
+          "rating": 4.2,
+          "why": "Cheapest brand-name option."
+        },
+        {
+          "name": "Chiang Mai Marriott Hotel",
+          "brand": "Marriott",
+          "price": 357,
+          "rating": 4.6,
+          "why": "5★ on the river, for a New Year's splurge."
+        }
+      ],
+      "days": [
+        {
+          "d": "Sun Dec 27",
+          "t": "Fly SFO 11:10 PM on STARLUX, via Taipei."
+        },
+        {
+          "d": "Tue Dec 29",
+          "t": "Land 4 PM. Check in, dinner, the Night Bazaar, sleep."
+        },
+        {
+          "d": "Wed Dec 30",
+          "t": "Elephant Nature Park half-day morning. Rest. Warorot market and the flower market at dusk.",
+          "star": true
+        },
+        {
+          "d": "Thu Dec 31",
+          "t": "Doi Suthep and Baan Kang Wat in the morning, a long nap, then the lanterns.",
+          "star": true,
+          "nye": true
+        }
+      ],
+      "around": "Night Bazaar 5 min walk · Old City 10 min · Nimman 15 min · lantern shuttle 15 min · Doi Suthep 35 min · airport 15 min",
+      "highlights": [
+        "A slow first evening and the Night Bazaar",
+        "A morning with rescued elephants",
+        "Warorot market and the riverside flower market",
+        "Doi Suthep and Baan Kang Wat on New Year's Eve morning",
+        "10,000 lanterns at midnight"
+      ],
+      "getting": "Grab in town. A car and driver for the Doi Suthep morning.",
+      "strip": [
+        [
+          "babyelephants",
+          "Elephants"
+        ],
+        [
+          "doiview",
+          "Doi Suthep view"
+        ],
+        [
+          "lanterns2",
+          "Lanterns"
+        ]
+      ]
+    },
+    {
+      "id": "bkk",
+      "city": "Bangkok",
+      "code": "BKK",
+      "tag": "The palace, the river, the weekend market",
+      "dates": "Jan 1 – 3",
+      "nights": 2,
+      "photo": "river",
+      "tone": "gold",
+      "lede": "Two nights over New Year's weekend: a couples spa, the Grand Palace and Wat Pho, Wat Arun at sunset, a Michelin dinner, and Chatuchak on Sunday.",
+      "stay": {
+        "name": "DoubleTree by Hilton Bangkok Ploenchit",
+        "brand": "Hilton",
+        "stars": "4★",
+        "price": 165,
+        "rating": 4.8,
+        "area": "Ploenchit",
+        "why": "Rated 4.8, by the Skytrain to Chatuchak, and close to the spa and Mia. New Year's weekend makes everything pricier."
+      },
+      "alts": [
+        {
+          "name": "Hilton Garden Inn Bangkok Riverside",
+          "brand": "Hilton",
+          "price": 215,
+          "rating": 4.7,
+          "why": "On the river, nearer the palace."
+        },
+        {
+          "name": "Hyatt Place Bangkok Sukhumvit 24",
+          "brand": "Hyatt",
+          "price": 131,
+          "rating": 4.3,
+          "why": "Cheapest brand-name option."
+        }
+      ],
+      "days": [
+        {
+          "d": "Fri Jan 1",
+          "t": "Fly 3:15 PM from Chiang Mai. Couples spa in the evening."
+        },
+        {
+          "d": "Sat Jan 2",
+          "t": "Grand Palace and Wat Pho, lunch in Chinatown, rest, Wat Arun at sunset, dinner at Mia.",
+          "star": true
+        },
+        {
+          "d": "Sun Jan 3",
+          "t": "Chatuchak in the morning. Fly 6:45 PM to Phuket."
+        }
+      ],
+      "around": "",
+      "highlights": [
+        "A couples spa on the first evening",
+        "The Grand Palace and Wat Pho's reclining Buddha",
+        "Wat Arun at sunset, then dinner at Mia (Michelin, vegan menu)",
+        "Chatuchak weekend market"
+      ],
+      "getting": "Grab and the Skytrain (the hotel is by BTS Ploen Chit).",
+      "strip": [
+        [
+          "watpho",
+          "Wat Pho"
+        ],
+        [
+          "yaowarat",
+          "Chinatown"
+        ],
+        [
+          "hero-wat-arun",
+          "Wat Arun"
+        ]
+      ]
+    },
+    {
+      "id": "hkt",
+      "city": "Phuket",
+      "code": "HKT",
+      "tag": "Two boat days: Phi Phi and Phang Nga Bay",
+      "dates": "Jan 3 – 6",
+      "nights": 3,
+      "photo": "mayabay",
+      "tone": "sea",
+      "lede": "Three nights: Maya Bay and Pileh Lagoon by speedboat, then James Bond Island and the sea caves of Phang Nga Bay, with sunset at Promthep Cape.",
+      "stay": {
+        "name": "Courtyard by Marriott Phuket Chalong Bay",
+        "brand": "Marriott",
+        "stars": "4★",
+        "price": 179,
+        "rating": 4.8,
+        "area": "Chalong Bay",
+        "why": "Rated 4.8. Phi Phi speedboats leave from Chalong pier nearby, and the Big Buddha and Wat Chalong are 10 minutes away."
+      },
+      "alts": [
+        {
+          "name": "The Proud Karon Beach (Wyndham)",
+          "brand": "Wyndham",
+          "price": 209,
+          "rating": 4.7,
+          "why": "Right on Karon beach."
+        },
+        {
+          "name": "Wyndham Grand Nai Harn Beach",
+          "brand": "Wyndham",
+          "price": 246,
+          "rating": 4.9,
+          "why": "On Phuket's prettiest calm beach."
+        }
+      ],
+      "days": [
+        {
+          "d": "Sun Jan 3",
+          "t": "Land 8:25 PM, check in."
+        },
+        {
+          "d": "Mon Jan 4",
+          "t": "Phi Phi by speedboat. Rest. Sunset at Promthep Cape.",
+          "star": true
+        },
+        {
+          "d": "Tue Jan 5",
+          "t": "James Bond Island, Hong Island sea caves, Panyee village.",
+          "star": true
+        },
+        {
+          "d": "Wed Jan 6",
+          "t": "Leave about 6 AM for the 9:00 AM flight to Mumbai."
+        }
+      ],
+      "around": "",
+      "highlights": [
+        "Phi Phi by speedboat: Maya Bay, Pileh Lagoon, beach time",
+        "James Bond Island, sea caves by canoe, the Panyee stilt village",
+        "Sunset at Promthep Cape"
+      ],
+      "getting": "Both boat tours pick us up at the hotel. Grab for the airport and the evenings.",
+      "strip": [
+        [
+          "pileh",
+          "Pileh Lagoon"
+        ],
+        [
+          "phangnga",
+          "James Bond Island"
+        ],
+        [
+          "panyee",
+          "Koh Panyee"
+        ]
+      ]
+    },
+    {
+      "id": "bom",
+      "city": "Mumbai",
+      "code": "BOM",
+      "tag": "The Gateway, the old city, the sea",
+      "dates": "Jan 6 – 7",
+      "nights": 1,
+      "photo": "gateway",
+      "tone": "ember",
+      "lede": "An afternoon, an evening and a morning for her first look at Mumbai.",
+      "stay": {
+        "name": "Trident, Nariman Point",
+        "brand": "Oberoi Hotels",
+        "stars": "5★",
+        "price": 210,
+        "rating": 4.6,
+        "area": "Nariman Point",
+        "why": "On Marine Drive, a walk from the Gateway, Colaba and Kala Ghoda. About an hour from the airport."
+      },
+      "alts": [
+        {
+          "name": "Novotel Mumbai Juhu Beach",
+          "brand": "Accor",
+          "price": 195,
+          "rating": 4.3,
+          "why": "On Juhu Beach, 20 minutes from the airport."
+        },
+        {
+          "name": "Grand Hyatt Mumbai",
+          "brand": "Hyatt",
+          "price": 199,
+          "rating": 4.5,
+          "why": "Near the airport, far from the old city."
+        }
+      ],
+      "days": [
+        {
+          "d": "Wed Jan 6",
+          "t": "Land 12:10 PM. Check in and rest, the Gateway of India and Colaba, sunset on Marine Drive, dinner at Soam."
+        },
+        {
+          "d": "Thu Jan 7",
+          "t": "Kala Ghoda's art-deco streets, the Victorian CSMT station, lunch at Swati Snacks. Fly 5:45 PM to Jamnagar.",
+          "star": true
+        }
+      ],
+      "around": "Gateway of India 30–40 min · Marine Drive 25 min · airport 40–50 min",
+      "highlights": [
+        "The Gateway of India and Colaba Causeway",
+        "Sunset on Marine Drive, dinner at Soam",
+        "Kala Ghoda and the Victorian CSMT station",
+        "Lunch at Swati Snacks, then fly 5:45 PM to Jamnagar"
+      ],
+      "strip": [
+        [
+          "csmt",
+          "The Victorian CSMT station"
+        ],
+        [
+          "marinedrive",
+          "Marine Drive"
+        ],
+        [
+          "gateway",
+          "The Gateway of India"
+        ]
+      ]
+    },
+    {
+      "id": "jga",
+      "city": "Jamnagar",
+      "code": "JGA",
+      "tag": "Home, with family",
+      "dates": "Jan 7 – 13",
+      "nights": 6,
+      "photo": "lakhota",
+      "tone": "ember",
+      "lede": "Six nights at home with family.",
+      "stay": {
+        "name": "At home",
+        "brand": "",
+        "stars": "",
+        "price": 0,
+        "rating": null,
+        "area": "",
+        "why": "With family."
+      },
+      "alts": [],
+      "days": [
+        {
+          "d": "Jan 8 – 12",
+          "t": "Five full days with family. Ideas: Lakhota Lake at dusk, a day trip to Dwarka, the Narara reef walk at low tide."
+        }
+      ],
+      "around": "",
+      "highlights": [
+        "Six nights at home with family",
+        "Lakhota Lake at dusk, maybe a day trip to Dwarka"
+      ],
+      "strip": [
+        [
+          "lakhota",
+          "Lakhota Lake at dusk"
+        ],
+        [
+          "dwarka",
+          "Dwarkadhish Temple, Dwarka"
+        ]
+      ]
+    },
+    {
+      "id": "home",
+      "city": "Home",
+      "code": "SFO",
+      "tag": "A last Mumbai evening, then home",
+      "dates": "Jan 13 – 14",
+      "nights": 0,
+      "photo": "hero-wat-arun",
+      "tone": "night",
+      "lede": "A beach afternoon in Mumbai, then the night flight home.",
+      "stay": null,
+      "alts": [],
+      "days": [
+        {
+          "d": "Wed Jan 13",
+          "t": "Fly 10:50 AM to Mumbai. Juhu Beach, sunset at Bandra Bandstand, dinner, then the airport."
+        },
+        {
+          "d": "Thu Jan 14",
+          "t": "Cathay 2:00 AM via Hong Kong. Land SFO 9:45 AM."
+        }
+      ],
+      "around": "",
+      "highlights": [
+        "Juhu Beach and Bandra Bandstand at sunset",
+        "The 2 AM Cathay flight via Hong Kong, home Jan 14"
+      ],
+      "strip": [
+        [
+          "juhu",
+          "Juhu Beach"
+        ],
+        [
+          "marinedrive",
+          "One last Mumbai sunset"
+        ]
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "name": "Elephant Nature Park · half-day morning",
+      "when": "Dec 30",
+      "pp": 75,
+      "src": "Official, THB 2,500",
+      "url": "https://elephantnaturepark.org/book-now/",
+      "in": true
+    },
+    {
+      "name": "Lantern countdown (CAD Cultural Center Lanna)",
+      "when": "Dec 31",
+      "pp": 145,
+      "src": "Standard seat, THB 4,800 (2027 countdown listings)",
+      "url": "https://www.getyourguide.com/chiang-mai-l271/chiang-mai-cad-new-year-countdown-2026-sky-lanterns-official-t1071980/",
+      "in": true,
+      "est": true
+    },
+    {
+      "name": "Phi Phi + Maya Bay by speedboat, standard tour",
+      "when": "Jan 4",
+      "pp": 54,
+      "src": "GetYourGuide, $36–54",
+      "url": "https://www.getyourguide.com/phi-phi-islands-l9477/",
+      "in": true,
+      "est": false
+    },
+    {
+      "name": "Grand Palace and Wat Pho entry",
+      "when": "Jan 2",
+      "pp": 24,
+      "src": "Gate prices, THB 500 + 300",
+      "url": "https://www.royalgrandpalace.th/en/home",
+      "in": true
+    },
+    {
+      "name": "Couples spa: Divana Scentuara, Spa Sensational (2 h 10 min)",
+      "when": "Jan 1",
+      "pp": 100,
+      "est": true,
+      "src": "Divana menu, THB 3,350",
+      "url": "https://www.divanawellness.com/spa-experience/",
+      "in": true
+    },
+    {
+      "name": "Michelin dinner: Mia vegan tasting menu (9 courses)",
+      "when": "Jan 2",
+      "pp": 155,
+      "est": true,
+      "src": "THB 4,450 plus service and VAT",
+      "url": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/mia",
+      "in": true
+    },
+    {
+      "name": "Maeklong railway market + Damnoen Saduak floating market, half day",
+      "when": "Jan 4",
+      "pp": 45,
+      "est": true,
+      "src": "Small-group tours, about $26–69",
+      "url": "https://www.getyourguide.com/bangkok-l169/?q=maeklong%20railway%20market",
+      "in": false
+    },
+    {
+      "name": "2-hour Thai massage in Chiang Mai (replaced by the Bangkok spa)",
+      "when": "Dec 31",
+      "pp": 40,
+      "src": "est. THB 1,200–1,500",
+      "url": "https://www.google.com/maps/search/thai+massage+Nimman+Chiang+Mai",
+      "in": false,
+      "est": true
+    },
+    {
+      "name": "Chao Phraya dinner cruise (instead of Chinatown)",
+      "when": "Jan 4",
+      "pp": 47,
+      "src": "GetYourGuide, $34–52",
+      "url": "https://www.getyourguide.com/bangkok-l169/dinner-lunch-cruises-tc108/",
+      "in": false
+    },
+    {
+      "name": "James Bond Island + Hong Island canoe + Koh Panyee, day tour",
+      "when": "Jan 5",
+      "pp": 55,
+      "src": "Shared speedboat or big boat, THB 1,400–2,000",
+      "url": "https://www.klook.com/activity/3227-james-bond-day-tour-big-boat-longtail-speedboat/",
+      "in": true,
+      "est": true
+    },
+    {
+      "name": "Mahanakhon SkyWalk glass floor at sunset",
+      "when": "Jan 5",
+      "pp": 36,
+      "src": "About THB 880–1,200",
+      "url": "https://kingpowermahanakhon.co.th/experience/mahanakhon-skywalk",
+      "in": false
+    }
+  ],
+  "fixed": [
+    {
+      "label": "Food in Thailand, Dec 29 – Jan 6 (about $50 a day for two: cafés, local vegetarian places, street snacks, coffee)",
+      "amt": 400
+    },
+    {
+      "label": "Food in Mumbai, Jan 6–7 and Jan 13",
+      "amt": 90
+    },
+    {
+      "label": "Jamnagar outings and snacks (meals at home)",
+      "amt": 40
+    },
+    {
+      "label": "Airport and travel-day snacks",
+      "amt": 40
+    },
+    {
+      "label": "Grab rides, Skytrain, airport transfers",
+      "amt": 300
+    },
+    {
+      "label": "Car and driver for the Doi Suthep morning, Dec 31",
+      "amt": 55
+    },
+    {
+      "label": "Checked bags on budget airlines",
+      "amt": 80
+    },
+    {
+      "label": "Doi Suthep and small entry fees",
+      "amt": 10
+    },
+    {
+      "label": "Visa fee",
+      "amt": 82
+    },
+    {
+      "label": "eSIMs",
+      "amt": 30
+    }
+  ],
+  "newyear": {
+    "why": [
+      "It's Chiang Mai's New Year version of the famous Yi Peng lantern festival (that one is in November).",
+      "Ten thousand lanterns go up at once over a Lanna temple, then half an hour of fireworks.",
+      "Not a party crowd. The cool night air is around 15°C, with dinner, dancers and music."
+    ],
+    "schedule": [
+      [
+        "5:30 PM",
+        "Shuttle from the meeting point on your ticket"
+      ],
+      [
+        "Evening",
+        "Lanna buffet dinner, craft village, performances"
+      ],
+      [
+        "11:00 PM",
+        "Lanna orchestra"
+      ],
+      [
+        "11:45 PM",
+        "Lantern release: 2 lanterns each"
+      ],
+      [
+        "12:00 AM",
+        "Fireworks, about 25 minutes"
+      ],
+      [
+        "~1:30 AM",
+        "Back in town"
+      ]
+    ],
+    "tips": [
+      "Book the Standard seat (about THB 4,800 each) on the official GetYourGuide listing or Headout, and check it says Dec 31, 2026 before paying. Look-alike sites sell fake 'official' tickets.",
+      "Ask for a vegetarian dinner basket when you book. The meeting point differs by seller, so check your ticket.",
+      "The organizers suggest wearing white. Bring a light jacket.",
+      "Backup: the free countdown at Tha Phae Gate in the Old City. People release lanterns there too, but it isn't official."
+    ]
+  },
+  "food": [
+    {
+      "city": "Chiang Mai",
+      "items": [
+        [
+          "Khao soi jay",
+          "The northern curry-noodle soup, made with tofu and potato. Aum Vegetarian (Old City) and Goodsouls Kitchen are known for it."
+        ],
+        [
+          "Nam prik noom",
+          "A smoky green-chili dip with fresh vegetables and sticky rice."
+        ],
+        [
+          "Mango sticky rice",
+          "At the Night Bazaar."
+        ],
+        [
+          "Where to go",
+          "Aum Vegetarian (Old City, daily 11–8), Free Bird Cafe (Old City, closed Monday), Anchan (Nimman, closed Tuesday and Wednesday), Raj Darbar (Indian, by the Night Bazaar)."
+        ]
+      ]
+    },
+    {
+      "city": "Bangkok",
+      "items": [
+        [
+          "Pad thai jay",
+          "Ask for no fish sauce: mai sai nam pla."
+        ],
+        [
+          "Michelin",
+          "Mia (1 star, 9-course vegan tasting menu) on Sat Jan 2. Other options: Haoma (1 star, vegetarian tasting menu) and Ginger Farm Kitchen (Bib Gourmand, ask for the vegetarian menu)."
+        ],
+        [
+          "Chatuchak",
+          "The Vegetarian Society hall behind the market, dishes from THB 20 (until 2 PM)."
+        ],
+        [
+          "Chinatown",
+          "Jay OH (vegan Chinese, 8 AM–5 PM). Yellow เจ flags mean fully vegetarian."
+        ]
+      ]
+    },
+    {
+      "city": "Phuket",
+      "items": [
+        [
+          "Jay buffet on Ranong Road",
+          "Old Town's vegetarian quarter by the Jui Tui shrine: Jia Chai and Hesan. Daytime only."
+        ],
+        [
+          "Mee Hokkien (vegetarian)",
+          "Phuket's yellow-noodle stir-fry, made jay-style."
+        ],
+        [
+          "Near the hotel",
+          "Bodhi Vegan Cafe in Chalong (daily 8:30 AM–9 PM); Pure Vegan Heaven (call ahead)."
+        ],
+        [
+          "Sit-down",
+          "The Vegan Table on Ratsada Road in the Old Town (daily 11 AM–9 PM)."
+        ]
+      ]
+    },
+    {
+      "city": "Mumbai",
+      "items": [
+        [
+          "Vada pav and pav bhaji",
+          "Mumbai's own street food. Juhu Beach is the classic spot."
+        ],
+        [
+          "Bhel puri and pani puri",
+          "By the sea at Juhu or Chowpatty."
+        ],
+        [
+          "Swati Snacks",
+          "A famous vegetarian institution for panki, dal dhokli and sev puri."
+        ],
+        [
+          "Gujarati thali",
+          "Shree Thaker Bhojanalay or Soam."
+        ]
+      ]
+    },
+    {
+      "city": "Jamnagar",
+      "items": [
+        [
+          "Jamnagari kachori",
+          "The city's famous sweet-and-spicy dry kachori."
+        ],
+        [
+          "Ghughra",
+          "Fried pastry stuffed with potato and peas, topped with chutneys and sev."
+        ],
+        [
+          "Katka bread",
+          "Bread soaked in tamarind chutney with potato and peanuts."
+        ],
+        [
+          "Fafda-jalebi",
+          "A Sunday-morning Gujarati classic."
+        ]
+      ]
+    }
+  ],
+  "hourly": [
+    {
+      "id": "dec29",
+      "date": "Tue Dec 29",
+      "ch": "cnx",
+      "mode": "Easy",
+      "title": "Land, check in, an easy first evening",
+      "items": [
+        {
+          "t": "4:00 PM",
+          "k": "go",
+          "x": "Land in Chiang Mai.",
+          "how": "Grab, 15 min, about THB 150"
+        },
+        {
+          "t": "4:45 PM",
+          "k": "rest",
+          "x": "Check in at the Mövenpick, shower, rest."
+        },
+        {
+          "t": "6:30 PM",
+          "k": "eat",
+          "x": "Dinner at Raj Darbar near the Night Bazaar: Indian, with a big vegetarian menu. Walkable."
+        },
+        {
+          "t": "7:45 PM",
+          "k": "see",
+          "x": "A short stroll through the Night Bazaar, then sleep."
+        }
+      ],
+      "photos": [
+        [
+          "nightbazaar",
+          "The Night Bazaar, 5 minutes from the hotel"
+        ],
+        [
+          "thaphae",
+          "Tha Phae Gate, the old city's east gate"
+        ]
+      ]
+    },
+    {
+      "id": "dec30",
+      "date": "Wed Dec 30",
+      "ch": "cnx",
+      "mode": "Medium",
+      "title": "Elephants in the morning, markets at dusk",
+      "items": [
+        {
+          "t": "7:30 AM",
+          "k": "go",
+          "x": "Elephant Nature Park pickup at the hotel (7:30–8:00).",
+          "how": "Included"
+        },
+        {
+          "t": "9:30 AM",
+          "k": "see",
+          "x": "Walk with rescued elephants and watch them bathe in the river."
+        },
+        {
+          "t": "12:00 PM",
+          "k": "eat",
+          "x": "Vegan buffet lunch at the park."
+        },
+        {
+          "t": "2:00 PM",
+          "k": "rest",
+          "x": "Back at the hotel. Rest until 3:30."
+        },
+        {
+          "t": "3:45 PM",
+          "k": "see",
+          "x": "Warorot market, where locals shop: dried fruit, tea, snacks, fabrics. It closes at 5.",
+          "how": "Grab, 10 min"
+        },
+        {
+          "t": "5:00 PM",
+          "k": "see",
+          "x": "Ton Lamyai flower market next door by the river, busiest as it gets dark."
+        },
+        {
+          "t": "6:30 PM",
+          "k": "eat",
+          "x": "Dinner at Aum Vegetarian near Tha Phae Gate (until 8 PM): khao soi jay.",
+          "how": "Walk 10 min, or a tuk-tuk"
+        }
+      ],
+      "photos": [
+        [
+          "enp",
+          "Rescued elephants, roaming free"
+        ],
+        [
+          "babyelephants",
+          "A mother and her baby at the park"
+        ],
+        [
+          "flowers",
+          "Marigold garlands at Warorot market"
+        ],
+        [
+          "warorot",
+          "Inside Warorot market"
+        ]
+      ]
+    },
+    {
+      "id": "dec31",
+      "date": "Thu Dec 31",
+      "ch": "cnx",
+      "mode": "Medium",
+      "nye": true,
+      "title": "Doi Suthep in the morning, lanterns at midnight",
+      "items": [
+        {
+          "t": "8:30 AM",
+          "k": "go",
+          "x": "Car and driver for the morning.",
+          "how": "About THB 1,800 for 4–5 hours, through the hotel"
+        },
+        {
+          "t": "9:00 AM",
+          "k": "view",
+          "x": "Doi Suthep (THB 30): the gold temple on the mountain and the view over the city. Calmer in the morning. Cover shoulders and knees."
+        },
+        {
+          "t": "10:45 AM",
+          "k": "see",
+          "x": "Baan Kang Wat on the way down: a small artists' village of ceramics, studios and cafés."
+        },
+        {
+          "t": "12:00 PM",
+          "k": "eat",
+          "x": "Lunch at Anchan in Nimman (Thursday 11:30–8)."
+        },
+        {
+          "t": "1:30 PM",
+          "k": "rest",
+          "x": "Back to the hotel. A long nap until 4:30."
+        },
+        {
+          "t": "5:00 PM",
+          "k": "go",
+          "x": "To the shuttle meeting point on the ticket. Wear white.",
+          "how": "Grab, 10 min"
+        },
+        {
+          "t": "7:00 PM",
+          "k": "eat",
+          "x": "Lanna dinner basket at the venue (ask for vegetarian when booking)."
+        },
+        {
+          "t": "11:45 PM",
+          "k": "view",
+          "x": "Our two lanterns go up with 10,000 others. Fireworks at midnight."
+        },
+        {
+          "t": "1:30 AM",
+          "k": "go",
+          "x": "Shuttle back, then bed."
+        }
+      ],
+      "photos": [
+        [
+          "lanterns2",
+          "10,000 lanterns at once"
+        ],
+        [
+          "doi-suthep",
+          "The gold chedi of Doi Suthep"
+        ],
+        [
+          "doiview",
+          "Chiang Mai from the mountain"
+        ],
+        [
+          "lanterns",
+          "Our two, at midnight"
+        ]
+      ]
+    },
+    {
+      "id": "jan1",
+      "date": "Fri Jan 1",
+      "ch": "bkk",
+      "mode": "Easy",
+      "title": "Sleep in, fly to Bangkok, a couples spa",
+      "items": [
+        {
+          "t": "10:00 AM",
+          "k": "eat",
+          "x": "Sleep in, late breakfast. Check out at noon."
+        },
+        {
+          "t": "1:30 PM",
+          "k": "go",
+          "x": "To Chiang Mai airport for the 3:15 PM flight.",
+          "how": "Grab, 15 min"
+        },
+        {
+          "t": "4:35 PM",
+          "k": "go",
+          "x": "Land in Bangkok.",
+          "how": "Grab to the hotel, 45–60 min, THB 450–600"
+        },
+        {
+          "t": "5:45 PM",
+          "k": "rest",
+          "x": "Check in at the DoubleTree by Hilton Ploenchit."
+        },
+        {
+          "t": "7:00 PM",
+          "k": "spa",
+          "x": "Couples spa at Divana Scentuara, a short ride away: foot soak, scrub, aromatherapy massage (2 h 10 min). Open until 11 PM on Jan 1; last booking 9 PM.",
+          "how": "Grab, 5–10 min"
+        },
+        {
+          "t": "9:30 PM",
+          "k": "eat",
+          "x": "Light dinner near the hotel, then bed."
+        }
+      ],
+      "photos": [
+        [
+          "skyline",
+          "Bangkok lights up"
+        ],
+        [
+          "river",
+          "The river at night"
+        ]
+      ]
+    },
+    {
+      "id": "jan2",
+      "date": "Sat Jan 2",
+      "ch": "bkk",
+      "mode": "Busy",
+      "title": "The Grand Palace, Wat Arun at sunset, dinner at Mia",
+      "items": [
+        {
+          "t": "7:30 AM",
+          "k": "eat",
+          "x": "Breakfast. Dress for the palace: shoulders and knees covered, long trousers."
+        },
+        {
+          "t": "8:00 AM",
+          "k": "go",
+          "x": "To the Grand Palace.",
+          "how": "Grab, 30–40 min, THB 200–250"
+        },
+        {
+          "t": "8:30 AM",
+          "k": "see",
+          "x": "The Grand Palace and the Emerald Buddha (THB 500), at opening before the crowds."
+        },
+        {
+          "t": "10:45 AM",
+          "k": "see",
+          "x": "Wat Pho next door (THB 300): the 46-meter reclining Buddha."
+        },
+        {
+          "t": "12:00 PM",
+          "k": "eat",
+          "x": "Lunch in Chinatown at Jay OH (vegan Chinese) or any stall with a yellow เจ flag.",
+          "how": "Grab, 10 min"
+        },
+        {
+          "t": "1:00 PM",
+          "k": "rest",
+          "x": "Back to the hotel. Rest until 4:15.",
+          "how": "Grab, 30 min"
+        },
+        {
+          "t": "4:30 PM",
+          "k": "go",
+          "x": "To Tha Tien pier on the river.",
+          "how": "Grab, 35 min"
+        },
+        {
+          "t": "5:30 PM",
+          "k": "view",
+          "x": "The Tha Tien riverfront: the sun sets behind Wat Arun (about 6 PM), then the temple lights up."
+        },
+        {
+          "t": "7:30 PM",
+          "k": "eat",
+          "x": "Michelin dinner at Mia, off Sukhumvit 26: the 9-course vegan tasting menu.",
+          "how": "Grab, 20 min"
+        }
+      ],
+      "photos": [
+        [
+          "grand-palace",
+          "The Grand Palace"
+        ],
+        [
+          "watpho",
+          "The 46-meter reclining Buddha"
+        ],
+        [
+          "yaowarat",
+          "Chinatown's neon"
+        ],
+        [
+          "hero-wat-arun",
+          "Wat Arun at sunset"
+        ]
+      ]
+    },
+    {
+      "id": "jan3",
+      "date": "Sun Jan 3",
+      "ch": "bkk",
+      "mode": "Medium",
+      "title": "Chatuchak, then Phuket",
+      "items": [
+        {
+          "t": "9:00 AM",
+          "k": "go",
+          "x": "Skytrain to Chatuchak.",
+          "how": "BTS from Ploen Chit to Mo Chit, about 25 min"
+        },
+        {
+          "t": "9:30 AM",
+          "k": "see",
+          "x": "Chatuchak Weekend Market: clothes, crafts, home things, coconut ice cream. Go early for the cooler hours."
+        },
+        {
+          "t": "12:30 PM",
+          "k": "eat",
+          "x": "Lunch at the Vegetarian Society food hall behind the market (until 2 PM, dishes from THB 20)."
+        },
+        {
+          "t": "1:30 PM",
+          "k": "rest",
+          "x": "Back to the hotel. Ask for a 3 PM late check-out.",
+          "how": "BTS, 25 min"
+        },
+        {
+          "t": "4:15 PM",
+          "k": "go",
+          "x": "To Suvarnabhumi for the 6:45 PM flight. Eat at the airport.",
+          "how": "Grab, 45–60 min, THB 450–600"
+        },
+        {
+          "t": "8:25 PM",
+          "k": "go",
+          "x": "Land in Phuket.",
+          "how": "Grab to the Courtyard Chalong Bay, 50 min, about THB 800"
+        },
+        {
+          "t": "9:30 PM",
+          "k": "rest",
+          "x": "Check in and sleep. Early pickup tomorrow."
+        }
+      ],
+      "photos": [
+        [
+          "chatuchak",
+          "Chatuchak Weekend Market"
+        ],
+        [
+          "mayabay",
+          "Tomorrow: Maya Bay"
+        ]
+      ]
+    },
+    {
+      "id": "jan4",
+      "date": "Mon Jan 4",
+      "ch": "hkt",
+      "mode": "Busy",
+      "title": "Phi Phi by speedboat",
+      "items": [
+        {
+          "t": "7:30 AM",
+          "k": "go",
+          "x": "Tour pickup at the hotel (times vary, 7:00–8:00).",
+          "how": "Included"
+        },
+        {
+          "t": "9:30 AM",
+          "k": "view",
+          "x": "Maya Bay. No swimming here; wade in and take photos. It gets busy by mid-morning."
+        },
+        {
+          "t": "10:45 AM",
+          "k": "see",
+          "x": "Pileh Lagoon swim off the boat, Viking Cave, Monkey Beach, a snorkel stop."
+        },
+        {
+          "t": "12:30 PM",
+          "k": "eat",
+          "x": "Lunch on Phi Phi Don (ask for vegetarian when booking)."
+        },
+        {
+          "t": "1:45 PM",
+          "k": "see",
+          "x": "Beach time on Khai or Bamboo Island, depending on the tour."
+        },
+        {
+          "t": "4:30 PM",
+          "k": "rest",
+          "x": "Back at the hotel. Shower and rest."
+        },
+        {
+          "t": "6:00 PM",
+          "k": "view",
+          "x": "Sunset at Promthep Cape (about 6:20).",
+          "how": "Grab, 20 min; ask the driver to wait"
+        },
+        {
+          "t": "7:00 PM",
+          "k": "eat",
+          "x": "Dinner at Bodhi Vegan Cafe in Chalong (until 9 PM)."
+        }
+      ],
+      "photos": [
+        [
+          "mayabay",
+          "Maya Bay"
+        ],
+        [
+          "pileh",
+          "Pileh Lagoon"
+        ],
+        [
+          "promthep",
+          "Sunset at Promthep Cape"
+        ]
+      ]
+    },
+    {
+      "id": "jan5",
+      "date": "Tue Jan 5",
+      "ch": "hkt",
+      "mode": "Busy",
+      "title": "James Bond Island and the sea caves",
+      "items": [
+        {
+          "t": "7:30 AM",
+          "k": "go",
+          "x": "Tour pickup at the hotel (7:00–8:00 depending on the tour).",
+          "how": "Included, about 1 hour to the pier"
+        },
+        {
+          "t": "9:30 AM",
+          "k": "see",
+          "x": "Hong Island: canoe through sea caves into hidden lagoons inside the limestone towers."
+        },
+        {
+          "t": "11:30 AM",
+          "k": "view",
+          "x": "James Bond Island: the famous Ko Tapu rock rising straight out of the sea."
+        },
+        {
+          "t": "12:30 PM",
+          "k": "eat",
+          "x": "Lunch at Koh Panyee, a fishing village on stilts over the water (ask for vegetarian when booking)."
+        },
+        {
+          "t": "2:00 PM",
+          "k": "see",
+          "x": "A swim or beach stop on the way back, depending on the tour."
+        },
+        {
+          "t": "5:00 PM",
+          "k": "rest",
+          "x": "Back at the hotel. Pool and shower."
+        },
+        {
+          "t": "7:00 PM",
+          "k": "eat",
+          "x": "Dinner near the hotel: Pure Vegan Heaven (call ahead) or Bodhi."
+        }
+      ],
+      "photos": [
+        [
+          "phangnga",
+          "James Bond Island"
+        ],
+        [
+          "hong",
+          "Paddling into Hong Island's lagoon"
+        ],
+        [
+          "panyee",
+          "Koh Panyee, a village on stilts"
+        ]
+      ]
+    },
+    {
+      "id": "jan6",
+      "date": "Wed Jan 6",
+      "ch": "hkt",
+      "mode": "Medium",
+      "title": "Early flight to Mumbai, an evening on Marine Drive",
+      "items": [
+        {
+          "t": "6:00 AM",
+          "k": "go",
+          "x": "Leave for Phuket airport with a breakfast box from the hotel. It's an international flight, so arrive 2 hours early.",
+          "how": "Grab or a hotel car, 50 min, about THB 800"
+        },
+        {
+          "t": "9:00 AM",
+          "k": "go",
+          "x": "IndiGo to Mumbai, nonstop."
+        },
+        {
+          "t": "12:10 PM",
+          "k": "go",
+          "x": "Land in Mumbai.",
+          "how": "Uber or a prepaid taxi to the Trident, about 1 hour via the Sea Link"
+        },
+        {
+          "t": "1:30 PM",
+          "k": "rest",
+          "x": "Check in, lunch at the hotel, rest."
+        },
+        {
+          "t": "4:30 PM",
+          "k": "see",
+          "x": "The Gateway of India and the Taj, then shopping on Colaba Causeway.",
+          "how": "Taxi, 10 min"
+        },
+        {
+          "t": "6:00 PM",
+          "k": "view",
+          "x": "Sunset along Marine Drive (about 6:15), walking toward Chowpatty."
+        },
+        {
+          "t": "7:30 PM",
+          "k": "eat",
+          "x": "Dinner at Soam near Chowpatty: Gujarati vegetarian, a good first taste of home food."
+        }
+      ],
+      "photos": [
+        [
+          "marinedrive",
+          "Sunset on Marine Drive"
+        ],
+        [
+          "gateway",
+          "The Gateway of India"
+        ]
+      ]
+    }
+  ],
+  "phrases": [
+    [
+      "Gin mangsawirat",
+      "กินมังสวิรัติ",
+      "I'm vegetarian (eggs and dairy are OK)."
+    ],
+    [
+      "Gin jay",
+      "กินเจ",
+      "I eat jay: no meat, fish, egg, dairy, garlic or onion. The strictest and safest to say."
+    ],
+    [
+      "Mai sai nam pla",
+      "ไม่ใส่น้ำปลา",
+      "No fish sauce."
+    ],
+    [
+      "Mai sai nam man hoi",
+      "ไม่ใส่น้ำมันหอย",
+      "No oyster sauce."
+    ],
+    [
+      "Mai sai kapi",
+      "ไม่ใส่กะปิ",
+      "No shrimp paste (it hides in curry pastes and dips)."
+    ],
+    [
+      "Mai gin neua sat",
+      "ไม่กินเนื้อสัตว์",
+      "I don't eat any meat or seafood."
+    ]
+  ],
+  "photospots": [
+    [
+      "doi-suthep",
+      "Thu Dec 31 · morning",
+      "Doi Suthep over Chiang Mai"
+    ],
+    [
+      "lanterns",
+      "Thu Dec 31 · 11:45 PM",
+      "10,000 lanterns"
+    ],
+    [
+      "grand-palace",
+      "Sat Jan 2 · 8:30 AM",
+      "The Grand Palace"
+    ],
+    [
+      "hero-wat-arun",
+      "Sat Jan 2 · sunset",
+      "Wat Arun from Tha Tien"
+    ],
+    [
+      "chatuchak",
+      "Sun Jan 3 · morning",
+      "Chatuchak Weekend Market"
+    ],
+    [
+      "mayabay",
+      "Mon Jan 4 · morning",
+      "Maya Bay"
+    ],
+    [
+      "promthep",
+      "Mon Jan 4 · sunset",
+      "Promthep Cape"
+    ],
+    [
+      "phangnga",
+      "Tue Jan 5 · late morning",
+      "James Bond Island"
+    ],
+    [
+      "gateway",
+      "Wed Jan 6 · late afternoon",
+      "The Gateway of India"
+    ]
+  ],
+  "bookings": [
+    {
+      "when": "This week",
+      "what": "Long flights",
+      "date": "Dec 27 and Jan 14",
+      "price": "$809 + $749 each",
+      "note": "STARLUX SFO → Chiang Mai via Taipei, and Cathay Mumbai → SFO via Hong Kong. These move the most in price.",
+      "url": "https://www.google.com/travel/flights"
+    },
+    {
+      "when": "This week",
+      "what": "Lantern countdown tickets",
+      "date": "Thu Dec 31",
+      "price": "about THB 4,800 each",
+      "note": "Standard seat: dinner basket, 2 lanterns, shared shuttle. Official GetYourGuide listing or Headout only; check it says Dec 31, 2026. Ask for a vegetarian dinner.",
+      "url": "https://www.getyourguide.com/chiang-mai-l271/chiang-mai-cad-new-year-countdown-2026-sky-lanterns-official-t1071980/"
+    },
+    {
+      "when": "This week",
+      "what": "Elephant Nature Park, half-day morning",
+      "date": "Wed Dec 30",
+      "price": "THB 2,500 each",
+      "note": "Hotel pickup 7:30–8:00 and a vegan lunch included.",
+      "url": "https://elephantnaturepark.org/book-now/"
+    },
+    {
+      "when": "Within 2 weeks",
+      "what": "Hotels",
+      "date": "All stops",
+      "price": "see below",
+      "note": "Mövenpick Chiang Mai, DoubleTree Ploenchit, Courtyard Chalong Bay, Trident Nariman Point. Bangkok's New Year's weekend fills up. Choose free cancellation."
+    },
+    {
+      "when": "Within 2 weeks",
+      "what": "Flights inside Thailand and to Mumbai",
+      "date": "Jan 1, 3, 6",
+      "price": "$100–204 each",
+      "note": "VietJet to Bangkok and to Phuket (add a checked bag), IndiGo from Phuket to Mumbai at 9 AM."
+    },
+    {
+      "when": "November",
+      "what": "Phi Phi speedboat, standard tour",
+      "date": "Mon Jan 4",
+      "price": "$36–54 each",
+      "note": "Maya Bay, Pileh Lagoon, lunch, hotel pickup in Chalong. Ask for a vegetarian lunch.",
+      "url": "https://www.getyourguide.com/phi-phi-islands-l9477/"
+    },
+    {
+      "when": "November",
+      "what": "James Bond Island day",
+      "date": "Tue Jan 5",
+      "price": "about $55 each",
+      "note": "Pick one that includes canoeing at Hong Island and lunch at Koh Panyee. A big boat is calmer; a speedboat is faster.",
+      "url": "https://www.klook.com/activity/3227-james-bond-day-tour-big-boat-longtail-speedboat/"
+    },
+    {
+      "when": "November",
+      "what": "Mumbai ↔ Jamnagar, and visas",
+      "date": "Jan 7 and 13",
+      "price": "$65–72 each",
+      "note": "IndiGo both ways."
+    },
+    {
+      "when": "December",
+      "what": "Michelin dinner at Mia",
+      "date": "Sat Jan 2, 7:30 PM",
+      "price": "THB 4,450++ each",
+      "note": "Ask for the 9-course vegan tasting menu. Open Tue–Sun from 5 PM.",
+      "url": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/mia"
+    },
+    {
+      "when": "December",
+      "what": "Couples spa",
+      "date": "Fri Jan 1, 7 PM",
+      "price": "THB 3,350 each",
+      "note": "Divana Scentuara, Spa Sensational, booked as 'couple'. Open 11 AM–11 PM on Jan 1, last booking 9 PM. Pay 48 hours ahead; free changes until then. Slots for Jan 1 show once you sign in and pick the date; if 7 PM is taken, ask on LINE @divanathailand or call +66 63 474 6566.",
+      "url": "https://divana.zenoti.com/webstoreNew/services/d86a35e9-e6f0-40f2-a5c7-1e657392c1db"
+    },
+    {
+      "when": "1 week before",
+      "what": "Doi Suthep car",
+      "date": "Thu Dec 31, 8:30 AM",
+      "price": "about THB 1,800",
+      "note": "Email the Mövenpick: Doi Suthep, Baan Kang Wat, lunch in Nimman, back by 1:30."
+    },
+    {
+      "when": "3 days before",
+      "what": "Thailand arrival card (TDAC)",
+      "date": "Both of us",
+      "price": "free",
+      "note": "Only on the official site, tdac.immigration.go.th."
+    },
+    {
+      "when": "No booking",
+      "what": "Pay at the door",
+      "date": "",
+      "price": "",
+      "note": "Markets, Doi Suthep, Baan Kang Wat, the Grand Palace, Wat Pho, Promthep Cape."
+    }
+  ],
+  "pack": "A white outfit for New Year's Eve, a light jacket for Chiang Mai and Mae Kampong, clothes that cover shoulders and knees, swimwear, reef-safe sunscreen, seasickness tablets."
+}
