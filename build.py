@@ -105,11 +105,11 @@ def main():
         print(f"  {c:<20} ${a:>6,}")
     print(f"  {'TOTAL':<20} ${total:>6,}  (${total/2:,.0f} each; ${total - TRIP['meta']['cap']:+,} vs ${TRIP['meta']['cap']:,})")
     if ANALYSIS.exists():
-        with (ANALYSIS / "output/budget-v10.csv").open("w", newline="") as fh:
+        with (ANALYSIS / "output/budget-v12.csv").open("w", newline="") as fh:
             w = csv.writer(fh)
             w.writerow(["category", "item", "usd_for_two"])
             w.writerows(rows)
-        print("wrote analysis output/budget-v10.csv")
+        print("wrote analysis output/budget-v12.csv")
     print("wrote docs/index.html")
 
 

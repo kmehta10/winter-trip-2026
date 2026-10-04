@@ -196,22 +196,21 @@
         },
         {
           "d": "Wed Dec 30",
-          "t": "Elephant Nature Park half-day morning. Rest. Warorot market and the flower market at dusk.",
+          "t": "Elephant Nature Park half-day morning. Rest. The Silver Temple, Warorot market and the flower market at dusk.",
           "star": true
         },
         {
           "d": "Thu Dec 31",
-          "t": "Doi Suthep and Baan Kang Wat in the morning, a long nap, then the lanterns.",
+          "t": "Doi Suthep, Baan Kang Wat and lunch at Chom Cafe, a long nap, then the lanterns.",
           "star": true,
           "nye": true
         }
       ],
       "around": "Night Bazaar 5 min walk · Old City 10 min · Nimman 15 min · lantern shuttle 15 min · Doi Suthep 35 min · airport 15 min",
       "highlights": [
-        "A slow first evening and the Night Bazaar",
         "A morning with rescued elephants",
-        "Warorot market and the riverside flower market",
-        "Doi Suthep and Baan Kang Wat on New Year's Eve morning",
+        "The Silver Temple and the riverside markets",
+        "Doi Suthep, Baan Kang Wat and lunch at Chom Cafe on New Year's Eve",
         "10,000 lanterns at midnight"
       ],
       "getting": "Grab in town. A car and driver for the Doi Suthep morning.",
@@ -221,8 +220,8 @@
           "Elephants"
         ],
         [
-          "doiview",
-          "Doi Suthep view"
+          "silvertemple",
+          "The Silver Temple"
         ],
         [
           "lanterns2",
@@ -272,20 +271,20 @@
         },
         {
           "d": "Sat Jan 2",
-          "t": "Grand Palace and Wat Pho, lunch in Chinatown, rest, Wat Arun at sunset, dinner at Mia.",
+          "t": "Grand Palace and Wat Pho, pad thai at Thipsamai, rest, Wat Arun at sunset, dinner at Mia.",
           "star": true
         },
         {
           "d": "Sun Jan 3",
-          "t": "Chatuchak in the morning. Fly 6:45 PM to Phuket."
+          "t": "Chatuchak, then shopping at Siam. Fly 6:45 PM to Phuket."
         }
       ],
       "around": "",
       "highlights": [
         "A couples spa on the first evening",
-        "The Grand Palace and Wat Pho's reclining Buddha",
-        "Wat Arun at sunset, then dinner at Mia (Michelin, vegan menu)",
-        "Chatuchak weekend market"
+        "The Grand Palace, the reclining Buddha and Thipsamai's pad thai",
+        "Wat Arun at sunset, then dinner at Mia",
+        "Chatuchak, then Siam Paragon and MBK"
       ],
       "getting": "Grab and the Skytrain (the hotel is by BTS Ploen Chit).",
       "strip": [
@@ -294,8 +293,8 @@
           "Wat Pho"
         ],
         [
-          "yaowarat",
-          "Chinatown"
+          "thipsamai",
+          "Thipsamai"
         ],
         [
           "hero-wat-arun",
@@ -350,7 +349,7 @@
         },
         {
           "d": "Tue Jan 5",
-          "t": "James Bond Island, Hong Island sea caves, Panyee village.",
+          "t": "James Bond Island, Hong Island sea caves, Koh Panyee. Evening in Old Phuket Town.",
           "star": true
         },
         {
@@ -360,9 +359,10 @@
       ],
       "around": "",
       "highlights": [
-        "Phi Phi by speedboat: Maya Bay, Pileh Lagoon, beach time",
-        "James Bond Island, sea caves by canoe, the Panyee stilt village",
-        "Sunset at Promthep Cape"
+        "Phi Phi by speedboat: Maya Bay, Pileh Lagoon",
+        "James Bond Island, sea caves by canoe, Koh Panyee",
+        "Sunset at Promthep Cape",
+        "An evening in Old Phuket Town"
       ],
       "getting": "Both boat tours pick us up at the hotel. Grab for the airport and the evenings.",
       "strip": [
@@ -389,7 +389,7 @@
       "nights": 1,
       "photo": "gateway",
       "tone": "ember",
-      "lede": "An afternoon, an evening and a morning for her first look at Mumbai.",
+      "lede": "Two visits: south Mumbai on Jan 6–7, then Juhu and Bandra on Jan 13 before the night flight.",
       "stay": {
         "name": "Trident, Nariman Point",
         "brand": "Oberoi Hotels",
@@ -418,33 +418,33 @@
       "days": [
         {
           "d": "Wed Jan 6",
-          "t": "Land 12:10 PM. Check in and rest, the Gateway of India and Colaba, sunset on Marine Drive, dinner at Soam."
+          "t": "Land 12:10 PM. Swati Snacks, the Gateway and Colaba, sunset on Marine Drive, dinner at Soam by Chowpatty."
         },
         {
           "d": "Thu Jan 7",
-          "t": "Kala Ghoda's art-deco streets, the Victorian CSMT station, lunch at Swati Snacks. Fly 5:45 PM to Jamnagar.",
+          "t": "Kala Ghoda, CSMT, lunch at The Bombay Canteen. Fly 5:45 PM to Jamnagar.",
           "star": true
         }
       ],
       "around": "Gateway of India 30–40 min · Marine Drive 25 min · airport 40–50 min",
       "highlights": [
-        "The Gateway of India and Colaba Causeway",
-        "Sunset on Marine Drive, dinner at Soam",
+        "The Gateway of India, Colaba and Leopold Café",
+        "Sunset on Marine Drive, dinner by Chowpatty",
         "Kala Ghoda and the Victorian CSMT station",
-        "Lunch at Swati Snacks, then fly 5:45 PM to Jamnagar"
+        "Lunch at The Bombay Canteen"
       ],
       "strip": [
         [
           "csmt",
-          "The Victorian CSMT station"
+          "CSMT"
         ],
         [
-          "marinedrive",
-          "Marine Drive"
+          "kalaghoda",
+          "Kala Ghoda"
         ],
         [
-          "gateway",
-          "The Gateway of India"
+          "leopold",
+          "Leopold Café"
         ]
       ]
     },
@@ -494,18 +494,18 @@
       "id": "home",
       "city": "Home",
       "code": "SFO",
-      "tag": "A last Mumbai evening, then home",
+      "tag": "Juhu, Bandra and the Sea Link, then home",
       "dates": "Jan 13 – 14",
       "nights": 0,
       "photo": "hero-wat-arun",
       "tone": "night",
-      "lede": "A beach afternoon in Mumbai, then the night flight home.",
+      "lede": "A last Mumbai afternoon and evening: the stars' homes, Bandra at sunset, the Sea Link lit up, then the night flight.",
       "stay": null,
       "alts": [],
       "days": [
         {
           "d": "Wed Jan 13",
-          "t": "Fly 10:50 AM to Mumbai. Juhu Beach, sunset at Bandra Bandstand, dinner, then the airport."
+          "t": "Fly 10:50 AM to Mumbai. Prithvi Café, Jalsa, Juhu Beach, Subko, Mannat, sunset at Bandstand, Elco, the Sea Link at night."
         },
         {
           "d": "Thu Jan 14",
@@ -514,17 +514,23 @@
       ],
       "around": "",
       "highlights": [
-        "Juhu Beach and Bandra Bandstand at sunset",
-        "The 2 AM Cathay flight via Hong Kong, home Jan 14"
+        "Prithvi Café, Jalsa and Juhu Beach",
+        "Mannat and sunset at Bandra Bandstand",
+        "Pani puri at Elco, the Sea Link at night",
+        "The 2 AM Cathay flight, home Jan 14"
       ],
       "strip": [
         [
-          "juhu",
-          "Juhu Beach"
+          "bandstand",
+          "Bandra Bandstand"
         ],
         [
-          "marinedrive",
-          "One last Mumbai sunset"
+          "sealink",
+          "The Sea Link"
+        ],
+        [
+          "juhu",
+          "Juhu Beach"
         ]
       ]
     }
@@ -628,12 +634,12 @@
   ],
   "fixed": [
     {
-      "label": "Food in Thailand, Dec 29 – Jan 6 (about $50 a day for two: cafés, local vegetarian places, street snacks, coffee)",
-      "amt": 400
+      "label": "Food in Thailand, Dec 29 – Jan 6 (about $55 a day for two, cafés included)",
+      "amt": 450
     },
     {
-      "label": "Food in Mumbai, Jan 6–7 and Jan 13",
-      "amt": 90
+      "label": "Food in Mumbai: Swati, Soam, The Bombay Canteen, Elco, cafés",
+      "amt": 130
     },
     {
       "label": "Jamnagar outings and snacks (meals at home)",
@@ -642,6 +648,10 @@
     {
       "label": "Airport and travel-day snacks",
       "amt": 40
+    },
+    {
+      "label": "Mumbai car and driver, Jan 13 (8 hours, holds the bags)",
+      "amt": 45
     },
     {
       "label": "Grab rides, Skytrain, airport transfers",
@@ -860,7 +870,7 @@
       "date": "Wed Dec 30",
       "ch": "cnx",
       "mode": "Medium",
-      "title": "Elephants in the morning, markets at dusk",
+      "title": "Elephants, the Silver Temple, markets at dusk",
       "items": [
         {
           "t": "7:30 AM",
@@ -881,10 +891,16 @@
         {
           "t": "2:00 PM",
           "k": "rest",
-          "x": "Back at the hotel. Rest until 3:30."
+          "x": "Back at the hotel. Rest until 3:15."
         },
         {
-          "t": "3:45 PM",
+          "t": "3:30 PM",
+          "k": "view",
+          "x": "The Silver Temple (Wat Sri Suphan, THB 50, until 5:30): a hall covered in hand-hammered silver. Women view the main hall from outside.",
+          "how": "Grab, 10 min"
+        },
+        {
+          "t": "4:20 PM",
           "k": "see",
           "x": "Warorot market, where locals shop: dried fruit, tea, snacks, fabrics. It closes at 5.",
           "how": "Grab, 10 min"
@@ -892,7 +908,7 @@
         {
           "t": "5:00 PM",
           "k": "see",
-          "x": "Ton Lamyai flower market next door by the river, busiest as it gets dark."
+          "x": "Ton Lamyai flower market next door by the river: marigold garlands, busiest as it gets dark."
         },
         {
           "t": "6:30 PM",
@@ -911,12 +927,12 @@
           "A mother and her baby at the park"
         ],
         [
-          "flowers",
-          "Marigold garlands at Warorot market"
+          "silvertemple",
+          "The Silver Temple"
         ],
         [
-          "warorot",
-          "Inside Warorot market"
+          "flowers",
+          "Marigold garlands at Warorot market"
         ]
       ]
     },
@@ -945,12 +961,13 @@
           "x": "Baan Kang Wat on the way down: a small artists' village of ceramics, studios and cafés."
         },
         {
-          "t": "12:00 PM",
-          "k": "eat",
-          "x": "Lunch at Anchan in Nimman (Thursday 11:30–8)."
+          "t": "11:45 AM",
+          "k": "cafe",
+          "x": "Lunch at Chom Cafe: a rainforest garden with waterfalls and drifting mist, made for photos. Thai and western menu; ask for vegetarian.",
+          "how": "15 min from Baan Kang Wat"
         },
         {
-          "t": "1:30 PM",
+          "t": "1:15 PM",
           "k": "rest",
           "x": "Back to the hotel. A long nap until 4:30."
         },
@@ -1003,9 +1020,10 @@
       "title": "Sleep in, fly to Bangkok, a couples spa",
       "items": [
         {
-          "t": "10:00 AM",
-          "k": "eat",
-          "x": "Sleep in, late breakfast. Check out at noon."
+          "t": "9:30 AM",
+          "k": "cafe",
+          "x": "Late breakfast at Ristr8to in Nimman, from a World Latte Art Champion. Back to check out at noon.",
+          "how": "Grab, 15 min"
         },
         {
           "t": "1:30 PM",
@@ -1078,7 +1096,7 @@
         {
           "t": "12:00 PM",
           "k": "eat",
-          "x": "Lunch in Chinatown at Jay OH (vegan Chinese) or any stall with a yellow เจ flag.",
+          "x": "Lunch at Thipsamai, Bangkok's most famous pad thai since 1939. Order the vegetarian pad thai. Open 9 AM–midnight, closed Tuesdays; expect a short queue.",
           "how": "Grab, 10 min"
         },
         {
@@ -1115,8 +1133,8 @@
           "The 46-meter reclining Buddha"
         ],
         [
-          "yaowarat",
-          "Chinatown's neon"
+          "thipsamai",
+          "Thipsamai's pad thai kitchen"
         ],
         [
           "hero-wat-arun",
@@ -1129,7 +1147,7 @@
       "date": "Sun Jan 3",
       "ch": "bkk",
       "mode": "Medium",
-      "title": "Chatuchak, then Phuket",
+      "title": "Chatuchak, Siam shopping, then Phuket",
       "items": [
         {
           "t": "9:00 AM",
@@ -1148,10 +1166,21 @@
           "x": "Lunch at the Vegetarian Society food hall behind the market (until 2 PM, dishes from THB 20)."
         },
         {
+          "t": "1:15 PM",
+          "k": "go",
+          "x": "Skytrain to Siam.",
+          "how": "BTS Mo Chit to Siam, about 15 min"
+        },
+        {
           "t": "1:30 PM",
+          "k": "see",
+          "x": "Shopping: Siam Paragon's luxury hall, then MBK Center next door for bargains (see the shopping notes on fakes)."
+        },
+        {
+          "t": "3:15 PM",
           "k": "rest",
-          "x": "Back to the hotel. Ask for a 3 PM late check-out.",
-          "how": "BTS, 25 min"
+          "x": "Back to the hotel, one Skytrain stop. Collect the bags.",
+          "how": "BTS Siam to Chit Lom"
         },
         {
           "t": "4:15 PM",
@@ -1177,8 +1206,8 @@
           "Chatuchak Weekend Market"
         ],
         [
-          "mayabay",
-          "Tomorrow: Maya Bay"
+          "skyline",
+          "Bangkok from above"
         ]
       ]
     },
@@ -1283,12 +1312,24 @@
         {
           "t": "5:00 PM",
           "k": "rest",
-          "x": "Back at the hotel. Pool and shower."
+          "x": "Back at the hotel. Shower and a short rest."
         },
         {
-          "t": "7:00 PM",
+          "t": "6:00 PM",
+          "k": "see",
+          "x": "Old Phuket Town: Thalang Road and little Soi Romanee, colourful shophouses lit up at night. Coffee at Coffs & Burgh, a café inside an antique shop.",
+          "how": "Grab, 25–30 min"
+        },
+        {
+          "t": "7:15 PM",
           "k": "eat",
-          "x": "Dinner near the hotel: Pure Vegan Heaven (call ahead) or Bodhi."
+          "x": "Dinner at The Vegan Table on Ratsada Road (daily 11 AM–9 PM)."
+        },
+        {
+          "t": "8:30 PM",
+          "k": "rest",
+          "x": "Back to the hotel and pack. We leave at 6 AM.",
+          "how": "Grab, 25–30 min"
         }
       ],
       "photos": [
@@ -1303,6 +1344,10 @@
         [
           "panyee",
           "Koh Panyee, a village on stilts"
+        ],
+        [
+          "oldtown",
+          "Old Phuket Town at night"
         ]
       ]
     },
@@ -1311,12 +1356,12 @@
       "date": "Wed Jan 6",
       "ch": "hkt",
       "mode": "Medium",
-      "title": "Early flight to Mumbai, an evening on Marine Drive",
+      "title": "Fly to Mumbai: the Gateway, Marine Drive, dinner by Chowpatty",
       "items": [
         {
           "t": "6:00 AM",
           "k": "go",
-          "x": "Leave for Phuket airport with a breakfast box from the hotel. It's an international flight, so arrive 2 hours early.",
+          "x": "Leave for Phuket airport with a breakfast box. International flight, so arrive 2 hours early.",
           "how": "Grab or a hotel car, 50 min, about THB 800"
         },
         {
@@ -1333,23 +1378,39 @@
         {
           "t": "1:30 PM",
           "k": "rest",
-          "x": "Check in, lunch at the hotel, rest."
+          "x": "Check in at the Trident, Nariman Point."
         },
         {
-          "t": "4:30 PM",
+          "t": "2:15 PM",
+          "k": "eat",
+          "x": "Late lunch at Swati Snacks in Tardeo: Mumbai street food made clean since 1963. Try panki, sev puri and dahi batata puri.",
+          "how": "Taxi, 15 min"
+        },
+        {
+          "t": "3:30 PM",
+          "k": "rest",
+          "x": "Back to the hotel to rest."
+        },
+        {
+          "t": "5:00 PM",
           "k": "see",
-          "x": "The Gateway of India and the Taj, then shopping on Colaba Causeway.",
+          "x": "The Gateway of India and the Taj, then Colaba Causeway's stalls. Chai at Leopold Café, open since 1871.",
           "how": "Taxi, 10 min"
         },
         {
-          "t": "6:00 PM",
+          "t": "6:15 PM",
           "k": "view",
-          "x": "Sunset along Marine Drive (about 6:15), walking toward Chowpatty."
+          "x": "Sunset on Marine Drive (about 6:20), walking toward Chowpatty."
         },
         {
-          "t": "7:30 PM",
+          "t": "7:15 PM",
           "k": "eat",
-          "x": "Dinner at Soam near Chowpatty: Gujarati vegetarian, a good first taste of home food."
+          "x": "Dinner at Soam near Chowpatty: Gujarati vegetarian, clean and reliable. Then kulfi or bhel at a busy Chowpatty stall; it's a certified Clean Street Food Hub."
+        },
+        {
+          "t": "9:00 PM",
+          "k": "view",
+          "x": "Marine Drive at night, the 'Queen's Necklace' of lights, on the way back to the Trident."
         }
       ],
       "photos": [
@@ -1360,8 +1421,150 @@
         [
           "gateway",
           "The Gateway of India"
+        ],
+        [
+          "leopold",
+          "Leopold Café, since 1871"
         ]
       ]
+    },
+    {
+      "id": "jan7",
+      "date": "Thu Jan 7",
+      "ch": "bom",
+      "mode": "Medium",
+      "title": "Old Bombay: Kala Ghoda, CSMT, lunch, then Jamnagar",
+      "photos": [
+        [
+          "csmt",
+          "CSMT, the Victorian railway station"
+        ],
+        [
+          "kalaghoda",
+          "Kala Ghoda, the black horse"
+        ]
+      ],
+      "items": [
+        {
+          "t": "8:30 AM",
+          "k": "cafe",
+          "x": "Breakfast at Kala Ghoda Café, in an airy old Fort warehouse. Or bun maska and chai at Yazdani Bakery, an Irani café since 1953.",
+          "how": "Taxi, 10 min"
+        },
+        {
+          "t": "9:30 AM",
+          "k": "see",
+          "x": "Walk the Kala Ghoda art district: Jehangir Art Gallery, the Gothic and art-deco buildings, the David Sassoon Library."
+        },
+        {
+          "t": "10:30 AM",
+          "k": "view",
+          "x": "CSMT (Victoria Terminus), the UNESCO-listed Gothic railway station. The best photo is from across the road."
+        },
+        {
+          "t": "11:15 AM",
+          "k": "see",
+          "x": "Flora Fountain and the old Fort streets; a little shopping."
+        },
+        {
+          "t": "12:30 PM",
+          "k": "eat",
+          "x": "Lunch at The Bombay Canteen in Lower Parel: modern Indian with lots of vegetarian dishes.",
+          "how": "Taxi, 30 min"
+        },
+        {
+          "t": "2:30 PM",
+          "k": "go",
+          "x": "To the airport for the 5:45 PM IndiGo to Jamnagar.",
+          "how": "Taxi, 45–60 min"
+        },
+        {
+          "t": "7:00 PM",
+          "k": "rest",
+          "x": "Land in Jamnagar. Home."
+        }
+      ]
+    },
+    {
+      "id": "jan13",
+      "date": "Wed Jan 13",
+      "ch": "home",
+      "mode": "Busy",
+      "title": "Juhu, Bandra, the stars' homes and the Sea Link at night",
+      "photos": [
+        [
+          "sealink",
+          "The Sea Link at night"
+        ],
+        [
+          "bandstand",
+          "Sunset at Bandra Bandstand"
+        ],
+        [
+          "juhu",
+          "Juhu Beach"
+        ]
+      ],
+      "items": [
+        {
+          "t": "10:50 AM",
+          "k": "go",
+          "x": "IndiGo from Jamnagar; land in Mumbai 12:05 PM."
+        },
+        {
+          "t": "12:15 PM",
+          "k": "go",
+          "x": "Our car and driver for the day, so the bags stay in the car.",
+          "how": "About ₹3,500 for 8 hours (Uber Rentals or Savaari)"
+        },
+        {
+          "t": "12:45 PM",
+          "k": "cafe",
+          "x": "Lunch at Prithvi Café in Juhu: open-air tables under a bamboo grove at the Prithvi Theatre."
+        },
+        {
+          "t": "2:00 PM",
+          "k": "view",
+          "x": "Jalsa, Amitabh Bachchan's home in Juhu: photos at the gate. He greets fans only on Sunday evenings, so not today."
+        },
+        {
+          "t": "2:30 PM",
+          "k": "see",
+          "x": "A walk on Juhu Beach. Juhu Chowpatty is a certified Clean Street Food Hub; pav bhaji from a busy stall if she's up for it."
+        },
+        {
+          "t": "3:45 PM",
+          "k": "cafe",
+          "x": "Coffee break at Subko in Bandra: specialty coffee and pastries."
+        },
+        {
+          "t": "5:00 PM",
+          "k": "view",
+          "x": "Mannat, Shah Rukh Khan's sea-facing home at Bandra Bandstand: photos at the gate. It's being renovated and the family moved out in 2025, so no SRK on the balcony."
+        },
+        {
+          "t": "5:45 PM",
+          "k": "view",
+          "x": "Sunset from the Bandra Bandstand promenade, looking out at the Sea Link."
+        },
+        {
+          "t": "7:00 PM",
+          "k": "eat",
+          "x": "Dinner at Elco on Hill Road: famous pani puri made with bottled water, plus pav bhaji and chaat in a sit-down room."
+        },
+        {
+          "t": "9:00 PM",
+          "k": "view",
+          "x": "Drive over the Bandra–Worli Sea Link, lit up at night, and back."
+        },
+        {
+          "t": "10:30 PM",
+          "k": "go",
+          "x": "To the airport for the 2:00 AM Cathay flight. Arrive 3 hours early.",
+          "how": "About 30 min"
+        }
+      ],
+      "city": "Mumbai"
     }
   ],
   "phrases": [
@@ -1398,6 +1601,11 @@
   ],
   "photospots": [
     [
+      "silvertemple",
+      "Wed Dec 30 · afternoon",
+      "The Silver Temple"
+    ],
+    [
       "doi-suthep",
       "Thu Dec 31 · morning",
       "Doi Suthep over Chiang Mai"
@@ -1418,11 +1626,6 @@
       "Wat Arun from Tha Tien"
     ],
     [
-      "chatuchak",
-      "Sun Jan 3 · morning",
-      "Chatuchak Weekend Market"
-    ],
-    [
       "mayabay",
       "Mon Jan 4 · morning",
       "Maya Bay"
@@ -1438,9 +1641,24 @@
       "James Bond Island"
     ],
     [
-      "gateway",
-      "Wed Jan 6 · late afternoon",
-      "The Gateway of India"
+      "marinedrive",
+      "Wed Jan 6 · sunset",
+      "Marine Drive"
+    ],
+    [
+      "csmt",
+      "Thu Jan 7 · morning",
+      "CSMT station"
+    ],
+    [
+      "bandstand",
+      "Wed Jan 13 · sunset",
+      "Bandra Bandstand"
+    ],
+    [
+      "sealink",
+      "Wed Jan 13 · night",
+      "The Sea Link lit up"
     ]
   ],
   "bookings": [
@@ -1529,6 +1747,13 @@
       "note": "Email the Mövenpick: Doi Suthep, Baan Kang Wat, lunch in Nimman, back by 1:30."
     },
     {
+      "when": "1 week before",
+      "what": "Mumbai car with driver",
+      "date": "Wed Jan 13, 12:15 PM",
+      "price": "about ₹3,500",
+      "note": "8 hours from the airport: Juhu, Bandra, the Sea Link, back to the airport. Uber Rentals or Savaari."
+    },
+    {
       "when": "3 days before",
       "what": "Thailand arrival card (TDAC)",
       "date": "Both of us",
@@ -1540,8 +1765,300 @@
       "what": "Pay at the door",
       "date": "",
       "price": "",
-      "note": "Markets, Doi Suthep, Baan Kang Wat, the Grand Palace, Wat Pho, Promthep Cape."
+      "note": "Markets, Doi Suthep, the Silver Temple, Baan Kang Wat, the Grand Palace, Wat Pho, Thipsamai, Chom Cafe, Promthep Cape."
     }
   ],
-  "pack": "A white outfit for New Year's Eve, a light jacket for Chiang Mai and Mae Kampong, clothes that cover shoulders and knees, swimwear, reef-safe sunscreen, seasickness tablets."
+  "pack": "A white outfit for New Year's Eve, a light jacket for Chiang Mai and Mae Kampong, clothes that cover shoulders and knees, swimwear, reef-safe sunscreen, seasickness tablets.",
+  "eats": [
+    {
+      "city": "Chiang Mai",
+      "groups": [
+        {
+          "title": "Cafés with a vibe",
+          "items": [
+            [
+              "Chom Cafe & Restaurant",
+              "A rainforest garden with waterfalls and mist. Daily 11 AM–10 PM, 15–20 min from town.",
+              "Thu Dec 31 lunch"
+            ],
+            [
+              "Ristr8to",
+              "Nimman. Coffee from a World Latte Art Champion.",
+              "Fri Jan 1 breakfast"
+            ],
+            [
+              "No.39 Café",
+              "A glass house by a turquoise pond in the forest, west of town.",
+              ""
+            ],
+            [
+              "Fern Forest Café",
+              "A leafy Old City garden with ferns and fountains.",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Lunch and dinner (vegetarian)",
+          "items": [
+            [
+              "Raj Darbar",
+              "Indian, big vegetarian menu, by the Night Bazaar.",
+              "Tue Dec 29 dinner"
+            ],
+            [
+              "Aum Vegetarian",
+              "Khao soi jay. Daily 11 AM–8 PM.",
+              "Wed Dec 30 dinner"
+            ],
+            [
+              "Free Bird Cafe",
+              "Vegetarian Thai. Closed Mondays.",
+              ""
+            ],
+            [
+              "Anchan",
+              "Creative vegetarian Thai in Nimman. Closed Tue–Wed.",
+              ""
+            ],
+            [
+              "Pun Pun, Wat Suan Dok",
+              "Organic vegetarian under a bodhi tree, 9 AM–4 PM.",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Must try",
+          "items": [
+            [
+              "Khao soi jay",
+              "The northern curry-noodle soup, made with tofu.",
+              ""
+            ],
+            [
+              "Mango sticky rice",
+              "At the Night Bazaar.",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "city": "Bangkok",
+      "groups": [
+        {
+          "title": "Famous and Michelin",
+          "items": [
+            [
+              "Thipsamai",
+              "'The world's best pad thai', since 1939, with a vegetarian pad thai on the menu. 9 AM–midnight, closed Tuesdays.",
+              "Sat Jan 2 lunch"
+            ],
+            [
+              "Mia",
+              "Michelin star, 9-course vegan tasting menu. Tue–Sun from 5 PM.",
+              "Sat Jan 2 dinner"
+            ],
+            [
+              "Haoma",
+              "Michelin star, neo-Indian vegetarian tasting menu.",
+              ""
+            ],
+            [
+              "Ginger Farm Kitchen",
+              "Bib Gourmand. Ask for the vegetarian menu.",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Everyday vegetarian",
+          "items": [
+            [
+              "Vegetarian Society food hall",
+              "Behind Chatuchak. Dishes from THB 20, until 2 PM.",
+              "Sun Jan 3 lunch"
+            ],
+            [
+              "Jay OH",
+              "Vegan Chinese in Chinatown, 8 AM–5 PM.",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Cafés",
+          "items": [
+            [
+              "Rocket Coffeebar",
+              "Brunch on Sarasin Road, near the hotel.",
+              ""
+            ],
+            [
+              "Hand and Hearts Coffee Roaster",
+              "A quiet paper-and-magazine café off Sukhumvit.",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "city": "Phuket",
+      "groups": [
+        {
+          "title": "Cafés with a vibe",
+          "items": [
+            [
+              "Coffs & Burgh",
+              "Thalang Road, inside an antique shop.",
+              "Tue Jan 5 evening"
+            ],
+            [
+              "Campus Coffee Roaster",
+              "Old Town, classroom-themed, specialty coffee.",
+              ""
+            ],
+            [
+              "Coffee Tribe",
+              "Rawai. The best coffee in the south, near the hotel.",
+              ""
+            ],
+            [
+              "Spoonful of Sugar",
+              "Rawai. Garden café for cakes and tea.",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Lunch and dinner (vegetarian)",
+          "items": [
+            [
+              "Bodhi Vegan Cafe",
+              "Chalong. Daily 8:30 AM–9 PM.",
+              "Mon Jan 4 dinner"
+            ],
+            [
+              "The Vegan Table",
+              "Ratsada Road, Old Town. Daily 11 AM–9 PM.",
+              "Tue Jan 5 dinner"
+            ],
+            [
+              "Pure Vegan Heaven",
+              "Chalong. Call ahead for hours.",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "city": "Mumbai",
+      "groups": [
+        {
+          "title": "Street food, the safe way",
+          "items": [
+            [
+              "Swati Snacks",
+              "Tardeo. Mumbai street food served clean since 1963: panki, sev puri, dahi batata puri.",
+              "Wed Jan 6 lunch"
+            ],
+            [
+              "Elco",
+              "Bandra, Hill Road. Pani puri made with bottled water, in a sit-down room.",
+              "Wed Jan 13 dinner"
+            ],
+            [
+              "Kailash Parbat",
+              "Colaba. Clean sit-down chaat and pani puri.",
+              ""
+            ],
+            [
+              "Girgaum and Juhu Chowpatty",
+              "Certified Clean Street Food Hubs. Pick the busiest stalls, eat hot cooked food, skip ice.",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Restaurants",
+          "items": [
+            [
+              "Soam",
+              "Gujarati vegetarian, opposite Babulnath, near Chowpatty.",
+              "Wed Jan 6 dinner"
+            ],
+            [
+              "The Bombay Canteen",
+              "Lower Parel. Modern Indian, lots of vegetarian dishes.",
+              "Thu Jan 7 lunch"
+            ],
+            [
+              "Shree Thaker Bhojanalay",
+              "Kalbadevi. An unlimited Gujarati thali.",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Cafés",
+          "items": [
+            [
+              "Leopold Café",
+              "Colaba Causeway, since 1871.",
+              "Wed Jan 6 evening"
+            ],
+            [
+              "Kala Ghoda Café",
+              "An airy café in an old Fort warehouse.",
+              "Thu Jan 7 breakfast"
+            ],
+            [
+              "Yazdani Bakery",
+              "Irani bakery since 1953: bun maska and chai. Closed Sundays.",
+              ""
+            ],
+            [
+              "Prithvi Café",
+              "Juhu. Open-air under a bamboo grove at the Prithvi Theatre.",
+              "Wed Jan 13 lunch"
+            ],
+            [
+              "Subko",
+              "Bandra. Specialty coffee and pastries.",
+              "Wed Jan 13 afternoon"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "shopping": {
+    "city": "Bangkok",
+    "items": [
+      [
+        "Siam Paragon",
+        "Luxury flagships in The Luxe Hall, plus everything else. BTS Siam.",
+        "Sun Jan 3"
+      ],
+      [
+        "Pre-owned luxury",
+        "Authentic second-hand bags and watches: EcoRing (Sukhumvit Soi 4, Japanese imports), Lux Bangkok, Pursezila. Brand Off opened at Siam Square in 2018; check it's still there.",
+        ""
+      ],
+      [
+        "MBK Center",
+        "Next to Siam: cheap clothes, electronics, souvenirs, and the famous imitation goods. Thai officials raided it in March 2026; selling fakes is illegal in Thailand, and US customs can seize them. Look, bargain, buy at your own risk.",
+        "Sun Jan 3"
+      ],
+      [
+        "Chatuchak",
+        "The weekend market, for crafts, clothes and home things.",
+        "Sun Jan 3 morning"
+      ]
+    ]
+  }
 }

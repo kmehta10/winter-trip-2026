@@ -172,7 +172,7 @@ section{padding-block:72px 8px}
 .tl li.rest + li{border-top:0}
 .tl li.rest .x{color:#BFEFE2}
 .kd{display:inline-block;font:600 10px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;padding:4px 6px;border-radius:5px;margin-right:8px;vertical-align:2px;border:1px solid currentColor}
-.kd-see{color:var(--gold)} .kd-eat{color:var(--jade)} .kd-view{color:var(--lantern)} .kd-go{color:var(--sea)} .kd-rest{color:var(--jade)} .kd-spa{color:var(--rose)}
+.kd-cafe{color:#EDB78C} .kd-see{color:var(--gold)} .kd-eat{color:var(--jade)} .kd-view{color:var(--lantern)} .kd-go{color:var(--sea)} .kd-rest{color:var(--jade)} .kd-spa{color:var(--rose)}
 .legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13px;color:var(--muted);margin-top:12px}
 .phrases{margin-top:18px}
 .phrases h3{margin-bottom:6px}
@@ -182,6 +182,15 @@ section{padding-block:72px 8px}
 .phr .rom{font-weight:600}
 .phr .th{font-size:20px;color:var(--lantern)}
 .phr .mean{font-size:14px;color:var(--muted)}
+/* eats */
+.food h4{font:500 11px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:10px 0 6px}
+.food h4:first-of-type{margin-top:2px}
+.eat{list-style:none;margin:0;padding:0;display:grid;gap:9px}
+.eat li{display:grid;gap:2px;font-size:14px;color:var(--muted)}
+.eat li a{color:var(--ink);font-weight:600;font-size:15px;text-decoration:none}
+.eat li a:hover{color:var(--lantern)}
+.eat .when{justify-self:start;font:500 10.5px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:#1c1405;background:var(--lantern);padding:4px 6px;border-radius:5px;margin-top:3px}
+.shopcard h3{font:400 30px/1 var(--display);color:var(--lantern)}
 /* day photo collages */
 .collage{display:grid;gap:8px;margin:6px 0 4px;grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:210px}
 .collage.n1{grid-template-columns:1fr;grid-auto-rows:300px}
@@ -353,7 +362,7 @@ footer a{color:var(--muted)}
     <a href="#hourly">Hour by hour</a>
     <a href="#photos">Photo spots</a>
     <a href="#nye">New Year's</a>
-    <a href="#food">Food</a>
+    <a href="#food">Eat &amp; shop</a>
     <a href="#book">Bookings</a>
     <a href="#budget">Budget</a>
   </div>
@@ -398,13 +407,13 @@ footer a{color:var(--muted)}
   <section id="hourly">
     <div class="wrap">
       <div class="sec-head">
-        <p class="eyebrow">Thailand · hour by hour</p>
-        <h2>Nine days, hour by hour</h2>
+        <p class="eyebrow">Thailand and Mumbai · hour by hour</p>
+        <h2>Every day, hour by hour</h2>
         <p>Busy days are followed by easier ones, with a rest most afternoons. Tap a day.</p>
       </div>
       <div class="hdays" id="hdays" role="tablist" aria-label="Thailand days"></div>
       <div class="card hplan" id="hplan" role="tabpanel"></div>
-      <div class="legend"><span><span class="kd kd-see">See</span>things to do</span><span><span class="kd kd-view">View</span>photo spot</span><span><span class="kd kd-eat">Eat</span>vegetarian pick</span><span><span class="kd kd-go">Go</span>getting there</span></div>
+      <div class="legend"><span><span class="kd kd-see">See</span>things to do</span><span><span class="kd kd-view">View</span>photo spot</span><span><span class="kd kd-eat">Eat</span>vegetarian pick</span><span><span class="kd kd-cafe">Café</span>a café worth the trip</span><span><span class="kd kd-go">Go</span>getting there</span></div>
     </div>
   </section>
 
@@ -438,11 +447,12 @@ footer a{color:var(--muted)}
   <section id="food">
     <div class="wrap">
       <div class="sec-head">
-        <p class="eyebrow">Vegetarian, stop by stop</p>
-        <h2>What we'll eat</h2>
-        <p>Yellow flags with เจ (jay) mean fully vegetarian. Everywhere else, use the phrases below.</p>
+        <p class="eyebrow">Cafés, restaurants, shopping</p>
+        <h2>Eat, drink, shop</h2>
+        <p>Every pick has vegetarian food. The ones with a date are already in the plan; the rest are good backups. Tap a name for the map. In Thailand, yellow เจ (jay) flags mean fully vegetarian.</p>
       </div>
       <div class="foods" id="foods"></div>
+      <div class="food shopcard" id="shop" style="margin-top:14px"></div>
       <div class="card phrases"><h3>Vegetarian, in Thai</h3><p class="muted" style="font-size:14px;margin-bottom:6px">Show this at any restaurant or stall. Fish sauce, oyster sauce and shrimp paste are the hidden ones.</p><div class="phr" id="phrases"></div></div>
     </div>
   </section>
@@ -661,8 +671,8 @@ footer a{color:var(--muted)}
   const glance = [
     ['Dec 27','Sun','Fly','home'],['Dec 28','Mon','In the air','home'],['Dec 29','Tue','Arrive','cnx',0,'dec29'],['Dec 30','Wed','Elephants','cnx',0,'dec30'],['Dec 31','Thu','Lanterns','cnx',1,'dec31'],
     ['Jan 1','Fri','→ Bangkok','bkk',0,'jan1'],['Jan 2','Sat','Palace','bkk',0,'jan2'],['Jan 3','Sun','Market','bkk',0,'jan3'],['Jan 4','Mon','Phi Phi','hkt',0,'jan4'],['Jan 5','Tue','James Bond','hkt',0,'jan5'],
-    ['Jan 6','Wed','→ Mumbai','hkt',0,'jan6'],['Jan 7','Thu','Mumbai','bom'],['Jan 8','Fri','Family','jga'],['Jan 9','Sat','Family','jga'],['Jan 10','Sun','Family','jga'],['Jan 11','Mon','Family','jga'],['Jan 12','Tue','Family','jga'],
-    ['Jan 13','Wed','→ Mumbai','home'],['Jan 14','Thu','Home','home']
+    ['Jan 6','Wed','→ Mumbai','hkt',0,'jan6'],['Jan 7','Thu','Mumbai','bom',0,'jan7'],['Jan 8','Fri','Family','jga'],['Jan 9','Sat','Family','jga'],['Jan 10','Sun','Family','jga'],['Jan 11','Mon','Family','jga'],['Jan 12','Tue','Family','jga'],
+    ['Jan 13','Wed','Mumbai','home',0,'jan13'],['Jan 14','Thu','Home','home']
   ];
   const TONE = {jade:'var(--jade)', gold:'var(--gold)', sea:'var(--sea)', lantern:'var(--lantern)', ember:'var(--ember)', night:'var(--muted)'};
   $('#glance').innerHTML = glance.map(g => `<button type="button" class="gday${g[4] ? ' nye' : ''}" data-ch="${g[3]}"${g[5] ? ` data-h="${g[5]}"` : ''}><span class="w">${g[1]}</span><div class="n">${g[0].split(' ')[1]}</div><span class="c" style="color:${TONE[CH[g[3]].tone]}">${g[2]}</span></button>`).join('');
@@ -695,7 +705,7 @@ footer a{color:var(--muted)}
   }).join('');
 
   /* ---------- hour by hour ---------- */
-  const KIND = {see: 'See', eat: 'Eat', view: 'View', go: 'Go', rest: 'Rest', spa: 'Spa'};
+  const KIND = {see: 'See', eat: 'Eat', cafe: 'Café', view: 'View', go: 'Go', rest: 'Rest', spa: 'Spa'};
   const MON = {Dec: [2026, 11], Jan: [2027, 0]};
   const isoOf = h => { const [, m, dd] = h.date.split(' '); return new Date(MON[m][0], MON[m][1], +dd).toDateString(); };
   const partOf = t => { const [hm, ap] = t.split(' '); const h = (+hm.split(':')[0] % 12) + (ap === 'PM' ? 12 : 0); return h < 12 ? 'Morning' : h < 17 ? 'Afternoon' : 'Evening'; };
@@ -712,11 +722,11 @@ footer a{color:var(--muted)}
     }
     const ph = (h.photos || []).filter(p => photo(p[0]).src).slice(0, 4);
     const col = ph.length ? `<div class="collage n${ph.length}${reduce ? '' : ' in'}">${ph.map(p => `<figure><img src="${esc(photo(p[0]).src)}" alt="${esc(photo(p[0]).alt || p[1])}"><figcaption>${esc(p[1])}</figcaption></figure>`).join('')}</div>` : '';
-    $('#hplan').innerHTML = `<div class="top"><span class="mono muted" style="font-size:13px">${h.date} · ${CH[h.ch].city} · <span class="m ${h.mode.toLowerCase()}">${h.mode} day</span></span><h3>${esc(h.title)}</h3></div>${col}${body}</ol>`;
+    $('#hplan').innerHTML = `<div class="top"><span class="mono muted" style="font-size:13px">${h.date} · ${h.city || CH[h.ch].city} · <span class="m ${h.mode.toLowerCase()}">${h.mode} day</span></span><h3>${esc(h.title)}</h3></div>${col}${body}</ol>`;
     if (focus) document.querySelector(`.hday[data-id="${h.id}"]`)?.scrollIntoView({block: 'nearest', inline: 'center'});
   }
   if (HOURS.length) {
-    $('#hdays').innerHTML = HOURS.map(h => `<button type="button" class="hday" role="tab" data-id="${h.id}" aria-selected="false"><span class="tn" style="background-image:url('${esc((photo((h.photos || [[]])[0][0]) || {}).src || '')}')"></span><span class="meta"><span class="w">${h.date.split(' ')[0]} · ${CH[h.ch].city}</span><span class="n">${h.date.split(' ').slice(1).join(' ')}${h.nye ? ' ✦' : ''}</span><span class="m ${h.mode.toLowerCase()}">${h.mode}</span></span></button>`).join('');
+    $('#hdays').innerHTML = HOURS.map(h => `<button type="button" class="hday" role="tab" data-id="${h.id}" aria-selected="false"><span class="tn" style="background-image:url('${esc((photo((h.photos || [[]])[0][0]) || {}).src || '')}')"></span><span class="meta"><span class="w">${h.date.split(' ')[0]} · ${h.city || CH[h.ch].city}</span><span class="n">${h.date.split(' ').slice(1).join(' ')}${h.nye ? ' ✦' : ''}</span><span class="m ${h.mode.toLowerCase()}">${h.mode}</span></span></button>`).join('');
     $('#hdays').addEventListener('click', e => { const b = e.target.closest('.hday'); if (b) showDay(b.dataset.id, true); });
     document.querySelectorAll('.hlink').forEach(a => a.addEventListener('click', () => showDay(a.dataset.hday, true)));
     const today = new Date().toDateString();
@@ -733,7 +743,12 @@ footer a{color:var(--muted)}
 
   /* ---------- food ---------- */
   $('#phrases').innerHTML = (TRIP.phrases || []).map(p => `<div><span class="rom">${esc(p[0])}</span><span class="th" lang="th">${p[1]}</span><span class="mean">${esc(p[2])}</span></div>`).join('');
-  $('#foods').innerHTML = (TRIP.food || []).map(f => `<article class="food reveal"><h3>${esc(f.city)}</h3><dl>${f.items.map(i => `<div><dt>${esc(i[0])}</dt><dd>${esc(i[1])}</dd></div>`).join('')}</dl></article>`).join('');
+  const mapq = (n, c) => 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(n + ' ' + c);
+  const eatLi = (i, c) => `<li><a href="${mapq(i[0], c)}" target="_blank" rel="noopener">${esc(i[0])} ↗</a><span>${esc(i[1])}</span>${i[2] ? `<span class="when">${esc(i[2])}</span>` : ''}</li>`;
+  const EATS = TRIP.eats || [], eatCities = new Set(EATS.map(e => e.city));
+  const eatCards = EATS.map(e => `<article class="food reveal"><h3>${esc(e.city)}</h3>${e.groups.map(g => `<h4>${esc(g.title)}</h4><ul class="eat">${g.items.map(i => eatLi(i, e.city)).join('')}</ul>`).join('')}</article>`).join('');
+  if (TRIP.shopping) $('#shop').innerHTML = `<h3>Shopping in ${esc(TRIP.shopping.city)}</h3><ul class="eat" style="margin-top:10px">${TRIP.shopping.items.map(i => eatLi(i, TRIP.shopping.city)).join('')}</ul>`;
+  $('#foods').innerHTML = eatCards + (TRIP.food || []).filter(f => !eatCities.has(f.city)).map(f => `<article class="food reveal"><h3>${esc(f.city)}</h3><dl>${f.items.map(i => `<div><dt>${esc(i[0])}</dt><dd>${esc(i[1])}</dd></div>`).join('')}</dl></article>`).join('');
 
   /* ---------- flights ---------- */
   $('#passes').innerHTML = TRIP.flights.map(f => `<article class="pass reveal">
