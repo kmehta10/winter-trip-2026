@@ -513,7 +513,7 @@ footer a{color:var(--muted)}
   const days = Math.ceil((new Date(TRIP.meta.depart) - new Date()) / 864e5);
   $('#hero-chips').innerHTML = [
     days > 0 ? `<span class="chip"><b>${days}</b> days to go</span>` : `<span class="chip"><b>We're on our way</b></span>`,
-    `<span class="chip">8 nights in Thailand</span>`, `<span class="chip">7 in India</span>`, `<span class="chip">1 midnight to remember</span>`
+    `<span class="chip">9 nights in Thailand</span>`, `<span class="chip">7 in India</span>`, `<span class="chip">1 midnight to remember</span>`
   ].join('');
 
   // Lanterns drifting up the hero
@@ -551,7 +551,7 @@ footer a{color:var(--muted)}
   /* ---------- map ---------- */
   const mapState = {view: 'trip', drawn: new Set(), playing: false};
   const VIEWS = {
-    trip:  {codes: ['SFO','JGA','BOM','CNX','HKT','TPE'], rot: [-176, -12], labels: [['SFO','San Francisco'],['CNX','Thailand'],['BOM','India'],['TPE','Taipei'],['HKG','Hong Kong']]},
+    trip:  {codes: ['SFO','JGA','BOM','CNX','HKT','ICN'], rot: [-176, -12], labels: [['SFO','San Francisco'],['CNX','Thailand'],['BOM','India'],['ICN','Seoul'],['HKG','Hong Kong']]},
     thai:  {codes: ['CNX','BKK','HKT'], rot: [-99.5, -13.5], labels: [['CNX','Chiang Mai'],['BKK','Bangkok'],['HKT','Phuket']]},
     india: {codes: ['BOM','JGA','HKT'], rot: [-86, -17], labels: [['BOM','Mumbai'],['JGA','Jamnagar'],['HKT','Phuket']]}
   };
@@ -669,7 +669,7 @@ footer a{color:var(--muted)}
 
   /* ---------- glance strip ---------- */
   const glance = [
-    ['Dec 27','Sun','Fly','home'],['Dec 28','Mon','In the air','home'],['Dec 29','Tue','Arrive','cnx',0,'dec29'],['Dec 30','Wed','Elephants','cnx',0,'dec30'],['Dec 31','Thu','Lanterns','cnx',1,'dec31'],
+    ['Dec 27','Sun','Fly','home'],['Dec 28','Mon','Arrive','cnx',0,'dec28'],['Dec 29','Tue','Free day','cnx',0,'dec29'],['Dec 30','Wed','Elephants','cnx',0,'dec30'],['Dec 31','Thu','Lanterns','cnx',1,'dec31'],
     ['Jan 1','Fri','→ Bangkok','bkk',0,'jan1'],['Jan 2','Sat','Palace','bkk',0,'jan2'],['Jan 3','Sun','Market','bkk',0,'jan3'],['Jan 4','Mon','Phi Phi','hkt',0,'jan4'],['Jan 5','Tue','James Bond','hkt',0,'jan5'],
     ['Jan 6','Wed','→ Mumbai','hkt',0,'jan6'],['Jan 7','Thu','Mumbai','bom',0,'jan7'],['Jan 8','Fri','Family','jga'],['Jan 9','Sat','Family','jga'],['Jan 10','Sun','Family','jga'],['Jan 11','Mon','Family','jga'],['Jan 12','Tue','Family','jga'],
     ['Jan 13','Wed','Mumbai','home',0,'jan13'],['Jan 14','Thu','Home','home']
@@ -782,7 +782,7 @@ footer a{color:var(--muted)}
     <span class="muted" style="font-size:13.5px">Includes basic daily food. Mia is the only restaurant splurge in the total. No travel insurance.</span>
     <div class="bars">${cats.map(c => `<div class="bar"><div class="top"><span>${c[0]}</span><b>${fmt(c[1])}</b></div><div class="track"><div class="fill" data-w="${(c[1] / maxc * 100).toFixed(1)}"></div></div>
       <details><summary class="muted" style="font-size:13px;cursor:pointer">What's in it</summary><div class="lines">${c[2].map(l => `<div><span>${esc(l[0])}</span><span>${fmt(l[1])}</span></div>`).join('')}</div></details></div>`).join('')}</div>`;
-  const trims = [['Mercure instead of Mövenpick in Chiang Mai', -89], ['Hyatt Place Sukhumvit 24 instead of the DoubleTree in Bangkok', -80], ['Grab up Doi Suthep and a shared red truck down, instead of the car', -40]];
+  const trims = [['Mercure instead of Mövenpick in Chiang Mai', -85], ['Hyatt Place Sukhumvit 24 instead of the DoubleTree in Bangkok', -80], ['Grab up Doi Suthep and a shared red truck down, instead of the car', -40]];
   $('#trims').innerHTML = trims.map(t => `<div class="trim"><span>${t[0]}</span><b>−${fmt(-t[1])}</b></div>`).join('') +
     `<p class="muted" style="font-size:13.5px">All of them together bring it to about ${fmt(total + trims.reduce((a, t) => a + t[1], 0))}.</p>`;
   const bars = document.querySelectorAll('.bar .fill');

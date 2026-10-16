@@ -2,23 +2,17 @@
   "meta": {
     "title": "Our first New Year",
     "dates": "Dec 27, 2026 → Jan 14, 2027",
-    "depart": "2026-12-27T23:10:00-08:00",
-    "pulled": "Oct 4, 2026",
+    "depart": "2026-12-27T11:45:00-08:00",
+    "pulled": "Oct 16, 2026",
     "cap": 8000,
     "hotelTax": 0.18,
-    "note": "Prices are Google Flights / Google Hotels / operator snapshots from Sep 28 – Oct 4, 2026, in USD. Flights are per person; hotels are per night for one room, before taxes (the budget adds 18%). Anything marked est. was not shown with a live price."
+    "note": "Prices are Google Flights / Google Hotels / operator snapshots, last checked Oct 16, 2026, in USD. Flights are per person; hotels are per night for one room, before taxes (the budget adds 18%). Anything marked est. was not shown with a live price."
   },
   "airports": {
     "SFO": {
       "name": "San Francisco",
       "lat": 37.6189,
       "lon": -122.375
-    },
-    "TPE": {
-      "name": "Taipei",
-      "lat": 25.0797,
-      "lon": 121.2342,
-      "layover": true
     },
     "CNX": {
       "name": "Chiang Mai",
@@ -50,6 +44,12 @@
       "lat": 22.308,
       "lon": 113.9185,
       "layover": true
+    },
+    "ICN": {
+      "name": "Seoul",
+      "lat": 37.4602,
+      "lon": 126.4407,
+      "layover": true
     }
   },
   "flights": [
@@ -58,14 +58,14 @@
       "date": "Sun Dec 27",
       "from": "SFO",
       "to": "CNX",
-      "via": "TPE",
+      "via": "ICN",
       "who": "both",
-      "airline": "STARLUX",
-      "times": "11:10 PM → Tue 4:00 PM",
-      "stop": "1 stop · Taipei 7h 50m",
-      "price": 809,
+      "airline": "Korean Air",
+      "times": "11:45 AM → Mon 10:45 PM",
+      "stop": "1 stop · Seoul 1h 05m",
+      "price": 770,
       "chapter": "cnx",
-      "note": "The cheapest, by $121 each. The Taipei stop is long, but Dec 29 is a rest day. EVA ($930) lands 10:35 AM after a 1h 30m stop."
+      "note": "Starlux went up to $1,222. This is the cheapest, leaves in daylight, and lands a night early, so Dec 29 is a free day."
     },
     {
       "id": "f2",
@@ -90,7 +90,7 @@
       "airline": "Thai VietJet",
       "times": "6:45 PM → 8:25 PM",
       "stop": "Nonstop",
-      "price": 100,
+      "price": 90,
       "chapter": "hkt",
       "bag": true,
       "note": "After Chatuchak. Bangkok Airways at 9:25 PM ($97, bag included) is the later option."
@@ -101,12 +101,12 @@
       "from": "HKT",
       "to": "BOM",
       "who": "both",
-      "airline": "IndiGo",
-      "times": "9:00 AM → 12:10 PM",
+      "airline": "Akasa Air",
+      "times": "4:45 PM → 7:50 PM",
       "stop": "Nonstop",
-      "price": 204,
+      "price": 147,
       "chapter": "bom",
-      "note": "The only morning flight. Gives us Wednesday afternoon and evening in Mumbai. Akasa at 4:45 PM ($193) is the later option."
+      "note": "The 9 AM IndiGo flight is no longer listed. A slow beach morning first; Marine Drive at night."
     },
     {
       "id": "f5",
@@ -114,12 +114,13 @@
       "from": "BOM",
       "to": "JGA",
       "who": "both",
-      "airline": "IndiGo",
-      "times": "5:45 PM → 7:00 PM",
+      "airline": "Air India Express",
+      "times": "4:10 PM → 5:30 PM",
       "stop": "Nonstop",
       "price": 65,
       "chapter": "jga",
-      "note": "The only nonstop of the day, so we get most of Jan 7 in Mumbai."
+      "note": "IndiGo dropped the route. Prices weren't released yet on Oct 16 (there's also a 6:45 AM). Backup: Air India to Rajkot at 7:50 PM ($73), then a 1.5–2 hour drive.",
+      "est": true
     },
     {
       "id": "f6",
@@ -127,12 +128,13 @@
       "from": "JGA",
       "to": "BOM",
       "who": "both",
-      "airline": "IndiGo",
-      "times": "10:50 AM → 12:05 PM",
+      "airline": "Air India Express",
+      "times": "8:40 AM → 10:20 AM",
       "stop": "Nonstop",
       "price": 72,
       "chapter": "home",
-      "note": "An afternoon at Juhu Beach before the night flight."
+      "note": "New morning time; price not released yet on Oct 16 (there's also a 6:05 PM). A full last day in Mumbai.",
+      "est": true
     },
     {
       "id": "f7",
@@ -144,7 +146,7 @@
       "airline": "Cathay Pacific",
       "times": "2:00 AM → 9:45 AM",
       "stop": "1 stop · Hong Kong 3h 35m",
-      "price": 749,
+      "price": 755,
       "chapter": "home",
       "note": "Leaves late on Jan 13. Cheaper than coming home on Jan 12 ($833)."
     }
@@ -155,8 +157,8 @@
       "city": "Chiang Mai",
       "code": "CNX",
       "tag": "Elephants, a mountain temple, 10,000 lanterns",
-      "dates": "Dec 29 – Jan 1",
-      "nights": 3,
+      "dates": "Dec 28 – Jan 1",
+      "nights": 4,
       "photo": "elephant",
       "tone": "lantern",
       "lede": "Three nights: an easy first evening, a morning with rescued elephants, local markets by the river, the mountain temple on New Year's Eve morning, and the lanterns at midnight.",
@@ -164,18 +166,18 @@
         "name": "Mövenpick Suriwongse Chiang Mai",
         "brand": "Accor",
         "stars": "4★",
-        "price": 76,
+        "price": 77,
         "rating": 4.3,
         "area": "Night Bazaar",
-        "why": "Walk to the Night Bazaar. 15 minutes to the lantern shuttle and the airport."
+        "why": "Walk to the Night Bazaar. 15 minutes to the lantern shuttle and the airport. Only Dec 28–Jan 1 showed a rate on Oct 16."
       },
       "alts": [
         {
           "name": "Mercure Chiang Mai",
           "brand": "Accor",
-          "price": 51,
+          "price": 59,
           "rating": 4.2,
-          "why": "Cheapest brand-name option."
+          "why": "Rooms left for New Year's, about $59."
         },
         {
           "name": "Chiang Mai Marriott Hotel",
@@ -188,15 +190,19 @@
       "days": [
         {
           "d": "Sun Dec 27",
-          "t": "Fly SFO 11:10 PM on STARLUX, via Taipei."
+          "t": "Fly SFO 11:45 AM on Korean Air, via Seoul."
+        },
+        {
+          "d": "Mon Dec 28",
+          "t": "Land 10:45 PM. Check in and sleep."
         },
         {
           "d": "Tue Dec 29",
-          "t": "Land 4 PM. Check in, dinner, the Night Bazaar, sleep."
+          "t": "A free day: brunch in a garden café, the Old City, a nap, the Silver Temple, Warorot and the flower market."
         },
         {
           "d": "Wed Dec 30",
-          "t": "Elephant Nature Park half-day morning. Rest. The Silver Temple, Warorot market and the flower market at dusk.",
+          "t": "Elephant Nature Park half-day morning. Rest. No.39 Café by its pond.",
           "star": true
         },
         {
@@ -208,8 +214,8 @@
       ],
       "around": "Night Bazaar 5 min walk · Old City 10 min · Nimman 15 min · lantern shuttle 15 min · Doi Suthep 35 min · airport 15 min",
       "highlights": [
+        "A free first day: garden café, Old City, the Silver Temple, markets",
         "A morning with rescued elephants",
-        "The Silver Temple and the riverside markets",
         "Doi Suthep, Baan Kang Wat and lunch at Chom Cafe on New Year's Eve",
         "10,000 lanterns at midnight"
       ],
@@ -243,7 +249,7 @@
         "name": "DoubleTree by Hilton Bangkok Ploenchit",
         "brand": "Hilton",
         "stars": "4★",
-        "price": 165,
+        "price": 178,
         "rating": 4.8,
         "area": "Ploenchit",
         "why": "Rated 4.8, by the Skytrain to Chatuchak, and close to the spa and Mia. New Year's weekend makes everything pricier."
@@ -316,12 +322,19 @@
         "name": "Courtyard by Marriott Phuket Chalong Bay",
         "brand": "Marriott",
         "stars": "4★",
-        "price": 179,
+        "price": 198,
         "rating": 4.8,
         "area": "Chalong Bay",
         "why": "Rated 4.8. Phi Phi speedboats leave from Chalong pier nearby, and the Big Buddha and Wat Chalong are 10 minutes away."
       },
       "alts": [
+        {
+          "name": "Courtyard by Marriott Phuket Town",
+          "brand": "Marriott",
+          "price": 168,
+          "rating": 4.5,
+          "why": "In town, nearer the Old Town and the piers."
+        },
         {
           "name": "The Proud Karon Beach (Wyndham)",
           "brand": "Wyndham",
@@ -354,7 +367,7 @@
         },
         {
           "d": "Wed Jan 6",
-          "t": "Leave about 6 AM for the 9:00 AM flight to Mumbai."
+          "t": "Nai Harn beach in the morning. Fly 4:45 PM to Mumbai."
         }
       ],
       "around": "",
@@ -389,17 +402,24 @@
       "nights": 1,
       "photo": "gateway",
       "tone": "ember",
-      "lede": "Two visits: south Mumbai on Jan 6–7, then Juhu and Bandra on Jan 13 before the night flight.",
+      "lede": "Two visits: an evening and a morning in south Mumbai on Jan 6–7, then a full day in Juhu and Bandra on Jan 13.",
       "stay": {
         "name": "Trident, Nariman Point",
         "brand": "Oberoi Hotels",
         "stars": "5★",
-        "price": 210,
+        "price": 222,
         "rating": 4.6,
         "area": "Nariman Point",
         "why": "On Marine Drive, a walk from the Gateway, Colaba and Kala Ghoda. About an hour from the airport."
       },
       "alts": [
+        {
+          "name": "President, Mumbai (IHCL SeleQtions)",
+          "brand": "Taj group",
+          "price": 210,
+          "rating": 4.4,
+          "why": "Cuffe Parade, near Colaba."
+        },
         {
           "name": "Novotel Mumbai Juhu Beach",
           "brand": "Accor",
@@ -418,20 +438,20 @@
       "days": [
         {
           "d": "Wed Jan 6",
-          "t": "Land 12:10 PM. Swati Snacks, the Gateway and Colaba, sunset on Marine Drive, dinner at Soam by Chowpatty."
+          "t": "Land 7:50 PM. Late dinner, a walk along Marine Drive at night."
         },
         {
           "d": "Thu Jan 7",
-          "t": "Kala Ghoda, CSMT, lunch at The Bombay Canteen. Fly 5:45 PM to Jamnagar.",
+          "t": "CSMT, Kala Ghoda, the Gateway and Colaba, lunch at Swati Snacks. Fly 4:10 PM to Jamnagar.",
           "star": true
         }
       ],
       "around": "Gateway of India 30–40 min · Marine Drive 25 min · airport 40–50 min",
       "highlights": [
+        "Marine Drive's lights at night",
+        "CSMT and the Kala Ghoda art district",
         "The Gateway of India, Colaba and Leopold Café",
-        "Sunset on Marine Drive, dinner by Chowpatty",
-        "Kala Ghoda and the Victorian CSMT station",
-        "Lunch at The Bombay Canteen"
+        "Lunch at Swati Snacks"
       ],
       "strip": [
         [
@@ -505,7 +525,7 @@
       "days": [
         {
           "d": "Wed Jan 13",
-          "t": "Fly 10:50 AM to Mumbai. Prithvi Café, Jalsa, Juhu Beach, Subko, Mannat, sunset at Bandstand, Elco, the Sea Link at night."
+          "t": "Fly 8:40 AM to Mumbai. Prithvi Café, Jalsa, Juhu Beach, The Bombay Canteen, Subko, Mannat, sunset at Bandstand, Elco, the Sea Link at night."
         },
         {
           "d": "Thu Jan 14",
@@ -515,9 +535,9 @@
       "around": "",
       "highlights": [
         "Prithvi Café, Jalsa and Juhu Beach",
+        "Lunch at The Bombay Canteen",
         "Mannat and sunset at Bandra Bandstand",
-        "Pani puri at Elco, the Sea Link at night",
-        "The 2 AM Cathay flight, home Jan 14"
+        "Elco, then the Sea Link at night"
       ],
       "strip": [
         [
@@ -634,8 +654,8 @@
   ],
   "fixed": [
     {
-      "label": "Food in Thailand, Dec 29 – Jan 6 (about $55 a day for two, cafés included)",
-      "amt": 450
+      "label": "Food in Thailand, Dec 28 – Jan 6 (about $55 a day for two, cafés included)",
+      "amt": 475
     },
     {
       "label": "Food in Mumbai: Swati, Soam, The Bombay Canteen, Elco, cafés",
@@ -650,8 +670,8 @@
       "amt": 40
     },
     {
-      "label": "Mumbai car and driver, Jan 13 (8 hours, holds the bags)",
-      "amt": 45
+      "label": "Mumbai car and driver, Jan 13 (12 hours, holds the bags)",
+      "amt": 55
     },
     {
       "label": "Grab rides, Skytrain, airport transfers",
@@ -826,72 +846,58 @@
   ],
   "hourly": [
     {
+      "id": "dec28",
+      "date": "Mon Dec 28",
+      "ch": "cnx",
+      "mode": "Easy",
+      "title": "Land late, straight to bed",
+      "photos": [
+        [
+          "nightbazaar",
+          "The Night Bazaar, right by the hotel"
+        ]
+      ],
+      "items": [
+        {
+          "t": "10:45 PM",
+          "k": "go",
+          "x": "Land in Chiang Mai from Seoul.",
+          "how": "Grab, 15 min, about THB 150"
+        },
+        {
+          "t": "11:30 PM",
+          "k": "rest",
+          "x": "Check in at the Mövenpick and sleep."
+        }
+      ]
+    },
+    {
       "id": "dec29",
       "date": "Tue Dec 29",
       "ch": "cnx",
       "mode": "Easy",
-      "title": "Land, check in, an easy first evening",
+      "title": "A free day: garden café, Old City, the Silver Temple, markets at dusk",
       "items": [
-        {
-          "t": "4:00 PM",
-          "k": "go",
-          "x": "Land in Chiang Mai.",
-          "how": "Grab, 15 min, about THB 150"
-        },
-        {
-          "t": "4:45 PM",
-          "k": "rest",
-          "x": "Check in at the Mövenpick, shower, rest."
-        },
-        {
-          "t": "6:30 PM",
-          "k": "eat",
-          "x": "Dinner at Raj Darbar near the Night Bazaar: Indian, with a big vegetarian menu. Walkable."
-        },
-        {
-          "t": "7:45 PM",
-          "k": "see",
-          "x": "A short stroll through the Night Bazaar, then sleep."
-        }
-      ],
-      "photos": [
-        [
-          "nightbazaar",
-          "The Night Bazaar, 5 minutes from the hotel"
-        ],
-        [
-          "thaphae",
-          "Tha Phae Gate, the old city's east gate"
-        ]
-      ]
-    },
-    {
-      "id": "dec30",
-      "date": "Wed Dec 30",
-      "ch": "cnx",
-      "mode": "Medium",
-      "title": "Elephants, the Silver Temple, markets at dusk",
-      "items": [
-        {
-          "t": "7:30 AM",
-          "k": "go",
-          "x": "Elephant Nature Park pickup at the hotel (7:30–8:00).",
-          "how": "Included"
-        },
         {
           "t": "9:30 AM",
+          "k": "cafe",
+          "x": "Slow brunch at Fern Forest Café, a leafy Old City garden with ferns and fountains.",
+          "how": "Grab, 10 min"
+        },
+        {
+          "t": "11:00 AM",
           "k": "see",
-          "x": "Walk with rescued elephants and watch them bathe in the river."
+          "x": "Wander the Old City lanes from Tha Phae Gate. A look at Wat Chedi Luang's giant ruined chedi if you like (THB 40)."
         },
         {
-          "t": "12:00 PM",
+          "t": "12:30 PM",
           "k": "eat",
-          "x": "Vegan buffet lunch at the park."
+          "x": "Lunch at Free Bird Cafe (Tuesday until 5 PM): vegetarian Thai."
         },
         {
-          "t": "2:00 PM",
+          "t": "1:30 PM",
           "k": "rest",
-          "x": "Back at the hotel. Rest until 3:15."
+          "x": "Back to the hotel. Nap off the jet lag until 3:15."
         },
         {
           "t": "3:30 PM",
@@ -913,8 +919,72 @@
         {
           "t": "6:30 PM",
           "k": "eat",
+          "x": "Dinner at Raj Darbar by the Night Bazaar: Indian, with a big vegetarian menu."
+        },
+        {
+          "t": "7:45 PM",
+          "k": "see",
+          "x": "The Night Bazaar on foot, then bed."
+        }
+      ],
+      "photos": [
+        [
+          "silvertemple",
+          "The Silver Temple"
+        ],
+        [
+          "flowers",
+          "Marigold garlands at Warorot market"
+        ],
+        [
+          "thaphae",
+          "Tha Phae Gate"
+        ],
+        [
+          "nightbazaar",
+          "The Night Bazaar"
+        ]
+      ]
+    },
+    {
+      "id": "dec30",
+      "date": "Wed Dec 30",
+      "ch": "cnx",
+      "mode": "Medium",
+      "title": "Elephants, then a café by the pond",
+      "items": [
+        {
+          "t": "7:30 AM",
+          "k": "go",
+          "x": "Elephant Nature Park pickup at the hotel (7:30–8:00).",
+          "how": "Included"
+        },
+        {
+          "t": "9:30 AM",
+          "k": "see",
+          "x": "Walk with rescued elephants and watch them bathe in the river."
+        },
+        {
+          "t": "12:00 PM",
+          "k": "eat",
+          "x": "Vegan buffet lunch at the park."
+        },
+        {
+          "t": "2:00 PM",
+          "k": "rest",
+          "x": "Back at the hotel. Rest and pool until 3:45."
+        },
+        {
+          "t": "4:00 PM",
+          "k": "cafe",
+          "x": "No.39 Café: a glass house by a turquoise pond in the forest, west of town. Coffee and cake by the water.",
+          "how": "Grab, 20 min"
+        },
+        {
+          "t": "6:30 PM",
+          "k": "eat",
           "x": "Dinner at Aum Vegetarian near Tha Phae Gate (until 8 PM): khao soi jay.",
-          "how": "Walk 10 min, or a tuk-tuk"
+          "how": "Grab, 20 min"
         }
       ],
       "photos": [
@@ -927,12 +997,8 @@
           "A mother and her baby at the park"
         ],
         [
-          "silvertemple",
-          "The Silver Temple"
-        ],
-        [
-          "flowers",
-          "Marigold garlands at Warorot market"
+          "doiview",
+          "Chiang Mai's green hills"
         ]
       ]
     },
@@ -1355,76 +1421,56 @@
       "id": "jan6",
       "date": "Wed Jan 6",
       "ch": "hkt",
-      "mode": "Medium",
-      "title": "Fly to Mumbai: the Gateway, Marine Drive, dinner by Chowpatty",
+      "mode": "Easy",
+      "title": "A slow beach morning, then Mumbai by night",
       "items": [
         {
-          "t": "6:00 AM",
-          "k": "go",
-          "x": "Leave for Phuket airport with a breakfast box. International flight, so arrive 2 hours early.",
-          "how": "Grab or a hotel car, 50 min, about THB 800"
-        },
-        {
           "t": "9:00 AM",
-          "k": "go",
-          "x": "IndiGo to Mumbai, nonstop."
+          "k": "eat",
+          "x": "Slow breakfast."
         },
         {
-          "t": "12:10 PM",
+          "t": "10:00 AM",
+          "k": "see",
+          "x": "Nai Harn beach: calm water and sunbeds.",
+          "how": "Grab, 15 min"
+        },
+        {
+          "t": "12:30 PM",
+          "k": "eat",
+          "x": "Lunch, pack, check out at 1."
+        },
+        {
+          "t": "1:45 PM",
+          "k": "go",
+          "x": "To Phuket airport for the 4:45 PM Akasa flight. International, so arrive 2 hours early.",
+          "how": "Grab, 50 min, about THB 800"
+        },
+        {
+          "t": "7:50 PM",
           "k": "go",
           "x": "Land in Mumbai.",
           "how": "Uber or a prepaid taxi to the Trident, about 1 hour via the Sea Link"
         },
         {
-          "t": "1:30 PM",
-          "k": "rest",
-          "x": "Check in at the Trident, Nariman Point."
-        },
-        {
-          "t": "2:15 PM",
-          "k": "eat",
-          "x": "Late lunch at Swati Snacks in Tardeo: Mumbai street food made clean since 1963. Try panki, sev puri and dahi batata puri.",
-          "how": "Taxi, 15 min"
-        },
-        {
-          "t": "3:30 PM",
-          "k": "rest",
-          "x": "Back to the hotel to rest."
-        },
-        {
-          "t": "5:00 PM",
-          "k": "see",
-          "x": "The Gateway of India and the Taj, then Colaba Causeway's stalls. Chai at Leopold Café, open since 1871.",
-          "how": "Taxi, 10 min"
-        },
-        {
-          "t": "6:15 PM",
-          "k": "view",
-          "x": "Sunset on Marine Drive (about 6:20), walking toward Chowpatty."
-        },
-        {
-          "t": "7:15 PM",
-          "k": "eat",
-          "x": "Dinner at Soam near Chowpatty: Gujarati vegetarian, clean and reliable. Then kulfi or bhel at a busy Chowpatty stall; it's a certified Clean Street Food Hub."
-        },
-        {
           "t": "9:00 PM",
+          "k": "eat",
+          "x": "Check in. Light late dinner at the hotel."
+        },
+        {
+          "t": "10:00 PM",
           "k": "view",
-          "x": "Marine Drive at night, the 'Queen's Necklace' of lights, on the way back to the Trident."
+          "x": "A walk along Marine Drive: the 'Queen's Necklace' of lights, out to Chowpatty for kulfi."
         }
       ],
       "photos": [
         [
+          "naiharn",
+          "Nai Harn beach"
+        ],
+        [
           "marinedrive",
-          "Sunset on Marine Drive"
-        ],
-        [
-          "gateway",
-          "The Gateway of India"
-        ],
-        [
-          "leopold",
-          "Leopold Café, since 1871"
+          "Marine Drive"
         ]
       ]
     },
@@ -1432,54 +1478,63 @@
       "id": "jan7",
       "date": "Thu Jan 7",
       "ch": "bom",
-      "mode": "Medium",
-      "title": "Old Bombay: Kala Ghoda, CSMT, lunch, then Jamnagar",
+      "mode": "Busy",
+      "title": "Old Bombay in a morning: CSMT, Kala Ghoda, the Gateway, Swati Snacks",
       "photos": [
+        [
+          "gateway",
+          "The Gateway of India"
+        ],
         [
           "csmt",
           "CSMT, the Victorian railway station"
         ],
         [
+          "leopold",
+          "Leopold Café, since 1871"
+        ],
+        [
           "kalaghoda",
-          "Kala Ghoda, the black horse"
+          "Kala Ghoda"
         ]
       ],
       "items": [
         {
-          "t": "8:30 AM",
+          "t": "8:00 AM",
           "k": "cafe",
-          "x": "Breakfast at Kala Ghoda Café, in an airy old Fort warehouse. Or bun maska and chai at Yazdani Bakery, an Irani café since 1953.",
+          "x": "Breakfast at Kala Ghoda Café, in an old Fort warehouse. Or bun maska and chai at Yazdani Bakery, an Irani café since 1953.",
           "how": "Taxi, 10 min"
         },
         {
-          "t": "9:30 AM",
+          "t": "9:00 AM",
+          "k": "view",
+          "x": "CSMT (Victoria Terminus), the UNESCO-listed Gothic railway station. Best photo from across the road."
+        },
+        {
+          "t": "9:45 AM",
           "k": "see",
-          "x": "Walk the Kala Ghoda art district: Jehangir Art Gallery, the Gothic and art-deco buildings, the David Sassoon Library."
+          "x": "The Kala Ghoda art district: Jehangir Art Gallery, Gothic and art-deco buildings."
         },
         {
           "t": "10:30 AM",
-          "k": "view",
-          "x": "CSMT (Victoria Terminus), the UNESCO-listed Gothic railway station. The best photo is from across the road."
-        },
-        {
-          "t": "11:15 AM",
           "k": "see",
-          "x": "Flora Fountain and the old Fort streets; a little shopping."
+          "x": "The Gateway of India and the Taj, then Colaba Causeway's stalls. Chai at Leopold Café, open since 1871.",
+          "how": "Taxi, 10 min"
         },
         {
-          "t": "12:30 PM",
+          "t": "12:00 PM",
           "k": "eat",
-          "x": "Lunch at The Bombay Canteen in Lower Parel: modern Indian with lots of vegetarian dishes.",
-          "how": "Taxi, 30 min"
+          "x": "Lunch at Swati Snacks in Tardeo: Mumbai street food made clean since 1963. Panki, sev puri, dahi batata puri.",
+          "how": "Taxi, 20 min"
         },
         {
-          "t": "2:30 PM",
+          "t": "1:15 PM",
           "k": "go",
-          "x": "To the airport for the 5:45 PM IndiGo to Jamnagar.",
+          "x": "To the airport for the 4:10 PM Air India Express to Jamnagar.",
           "how": "Taxi, 45–60 min"
         },
         {
-          "t": "7:00 PM",
+          "t": "5:30 PM",
           "k": "rest",
           "x": "Land in Jamnagar. Home."
         }
@@ -1490,7 +1545,7 @@
       "date": "Wed Jan 13",
       "ch": "home",
       "mode": "Busy",
-      "title": "Juhu, Bandra, the stars' homes and the Sea Link at night",
+      "title": "A full last day: Juhu, the Sea Link, Bandra at sunset",
       "photos": [
         [
           "sealink",
@@ -1507,40 +1562,47 @@
       ],
       "items": [
         {
-          "t": "10:50 AM",
+          "t": "8:40 AM",
           "k": "go",
-          "x": "IndiGo from Jamnagar; land in Mumbai 12:05 PM."
+          "x": "Fly from Jamnagar; land in Mumbai 10:20 AM."
+        },
+        {
+          "t": "10:30 AM",
+          "k": "go",
+          "x": "Our car and driver for the day, so the bags stay in the car.",
+          "how": "About ₹4,500 for 12 hours (Uber Rentals or Savaari)"
+        },
+        {
+          "t": "11:00 AM",
+          "k": "cafe",
+          "x": "Brunch at Prithvi Café in Juhu: open-air tables under a bamboo grove at the Prithvi Theatre."
         },
         {
           "t": "12:15 PM",
-          "k": "go",
-          "x": "Our car and driver for the day, so the bags stay in the car.",
-          "how": "About ₹3,500 for 8 hours (Uber Rentals or Savaari)"
+          "k": "view",
+          "x": "Jalsa, Amitabh Bachchan's home in Juhu: photos at the gate. He greets fans only on Sunday evenings."
         },
         {
           "t": "12:45 PM",
-          "k": "cafe",
-          "x": "Lunch at Prithvi Café in Juhu: open-air tables under a bamboo grove at the Prithvi Theatre."
+          "k": "see",
+          "x": "A walk on Juhu Beach (a certified Clean Street Food Hub; pav bhaji at a busy stall if she's up for it)."
         },
         {
           "t": "2:00 PM",
-          "k": "view",
-          "x": "Jalsa, Amitabh Bachchan's home in Juhu: photos at the gate. He greets fans only on Sunday evenings, so not today."
-        },
-        {
-          "t": "2:30 PM",
-          "k": "see",
-          "x": "A walk on Juhu Beach. Juhu Chowpatty is a certified Clean Street Food Hub; pav bhaji from a busy stall if she's up for it."
+          "k": "eat",
+          "x": "Late lunch at The Bombay Canteen in Lower Parel: modern Indian with lots of vegetarian dishes.",
+          "how": "Over the Sea Link, about 40 min"
         },
         {
           "t": "3:45 PM",
           "k": "cafe",
-          "x": "Coffee break at Subko in Bandra: specialty coffee and pastries."
+          "x": "Coffee at Subko in Bandra: specialty coffee and pastries.",
+          "how": "About 30 min"
         },
         {
           "t": "5:00 PM",
           "k": "view",
-          "x": "Mannat, Shah Rukh Khan's sea-facing home at Bandra Bandstand: photos at the gate. It's being renovated and the family moved out in 2025, so no SRK on the balcony."
+          "x": "Mannat, Shah Rukh Khan's sea-facing home at Bandra Bandstand: photos at the gate. It's being renovated and the family moved out in 2025."
         },
         {
           "t": "5:45 PM",
@@ -1602,7 +1664,7 @@
   "photospots": [
     [
       "silvertemple",
-      "Wed Dec 30 · afternoon",
+      "Tue Dec 29 · afternoon",
       "The Silver Temple"
     ],
     [
@@ -1642,12 +1704,12 @@
     ],
     [
       "marinedrive",
-      "Wed Jan 6 · sunset",
+      "Wed Jan 6 · night",
       "Marine Drive"
     ],
     [
       "csmt",
-      "Thu Jan 7 · morning",
+      "Thu Jan 7 · 9 AM",
       "CSMT station"
     ],
     [
@@ -1666,8 +1728,8 @@
       "when": "This week",
       "what": "Long flights",
       "date": "Dec 27 and Jan 14",
-      "price": "$809 + $749 each",
-      "note": "STARLUX SFO → Chiang Mai via Taipei, and Cathay Mumbai → SFO via Hong Kong. These move the most in price.",
+      "price": "$770 + $755 each",
+      "note": "Korean Air SFO → Chiang Mai via Seoul (11:45 AM, lands Dec 28 at 10:45 PM), and Cathay Mumbai → SFO via Hong Kong (2 AM Jan 14). Starlux went to $1,222.",
       "url": "https://www.google.com/travel/flights"
     },
     {
@@ -1691,14 +1753,14 @@
       "what": "Hotels",
       "date": "All stops",
       "price": "see below",
-      "note": "Mövenpick Chiang Mai, DoubleTree Ploenchit, Courtyard Chalong Bay, Trident Nariman Point. Bangkok's New Year's weekend fills up. Choose free cancellation."
+      "note": "Mövenpick Chiang Mai for Dec 28 – Jan 1 (the only dates with a rate on Oct 16), DoubleTree Ploenchit, Courtyard Chalong Bay, Trident Nariman Point. Choose free cancellation."
     },
     {
       "when": "Within 2 weeks",
       "what": "Flights inside Thailand and to Mumbai",
       "date": "Jan 1, 3, 6",
-      "price": "$100–204 each",
-      "note": "VietJet to Bangkok and to Phuket (add a checked bag), IndiGo from Phuket to Mumbai at 9 AM."
+      "price": "$90–147 each",
+      "note": "VietJet to Bangkok (3:15 PM) and to Phuket (6:45 PM, add a checked bag); Akasa from Phuket to Mumbai (4:45 PM)."
     },
     {
       "when": "November",
@@ -1720,8 +1782,8 @@
       "when": "November",
       "what": "Mumbai ↔ Jamnagar, and visas",
       "date": "Jan 7 and 13",
-      "price": "$65–72 each",
-      "note": "IndiGo both ways."
+      "price": "not released yet",
+      "note": "IndiGo dropped the route. Air India Express: Jan 7 at 4:10 PM and Jan 13 at 8:40 AM, prices not out on Oct 16. Check again in late October. Backup: Rajkot."
     },
     {
       "when": "December",
@@ -1749,9 +1811,9 @@
     {
       "when": "1 week before",
       "what": "Mumbai car with driver",
-      "date": "Wed Jan 13, 12:15 PM",
-      "price": "about ₹3,500",
-      "note": "8 hours from the airport: Juhu, Bandra, the Sea Link, back to the airport. Uber Rentals or Savaari."
+      "date": "Wed Jan 13, 10:30 AM",
+      "price": "about ₹4,500",
+      "note": "12 hours from the airport: Juhu, Lower Parel, Bandra, the Sea Link, back to the airport. Uber Rentals or Savaari."
     },
     {
       "when": "3 days before",
@@ -1789,12 +1851,12 @@
             [
               "No.39 Café",
               "A glass house by a turquoise pond in the forest, west of town.",
-              ""
+              "Wed Dec 30 afternoon"
             ],
             [
               "Fern Forest Café",
               "A leafy Old City garden with ferns and fountains.",
-              ""
+              "Tue Dec 29 brunch"
             ]
           ]
         },
@@ -1814,7 +1876,7 @@
             [
               "Free Bird Cafe",
               "Vegetarian Thai. Closed Mondays.",
-              ""
+              "Tue Dec 29 lunch"
             ],
             [
               "Anchan",
@@ -1964,7 +2026,7 @@
             [
               "Swati Snacks",
               "Tardeo. Mumbai street food served clean since 1963: panki, sev puri, dahi batata puri.",
-              "Wed Jan 6 lunch"
+              "Thu Jan 7 lunch"
             ],
             [
               "Elco",
@@ -1989,12 +2051,12 @@
             [
               "Soam",
               "Gujarati vegetarian, opposite Babulnath, near Chowpatty.",
-              "Wed Jan 6 dinner"
+              ""
             ],
             [
               "The Bombay Canteen",
               "Lower Parel. Modern Indian, lots of vegetarian dishes.",
-              "Thu Jan 7 lunch"
+              "Wed Jan 13 lunch"
             ],
             [
               "Shree Thaker Bhojanalay",
@@ -2009,7 +2071,7 @@
             [
               "Leopold Café",
               "Colaba Causeway, since 1871.",
-              "Wed Jan 6 evening"
+              "Thu Jan 7 morning"
             ],
             [
               "Kala Ghoda Café",
@@ -2024,7 +2086,7 @@
             [
               "Prithvi Café",
               "Juhu. Open-air under a bamboo grove at the Prithvi Theatre.",
-              "Wed Jan 13 lunch"
+              "Wed Jan 13 brunch"
             ],
             [
               "Subko",
